@@ -1,0 +1,593 @@
+NOTES:		u and v are used interchangeably 	check against dictionary?
+		f and s are used interchangeably 	check against dictionary?
+		accents are inconsistent 		should be ignored
+		some letters have horizontal “cap”	tends to mean n follows, or ue after capped q
+		some line end hyphens not present	leave words split for now, can decide later
+		ç old spelling is always modern z	teach AI to always interpret ç as z
+DEDICATORIA
+EN LOS CONSEJOS
+que dexo a sus hijo, e hija
+mayores una gran Señora
+destos Reynos de España
+que por justos respec-
+tos se ocultó su
+nombre.
+SIENDO (hijos
+mios) tan cierto, 
+que el virtuoso ser
+es el que por obli-
+gacion han de dar
+a los hijos sus Pa-
+dres, y por el que principalmente
+ellos les pueden quedar obligados;
+desseando yo cumplir en esto la par
+te que me toca, y executaros en la
+vuestra, no aviendose servido nues-
+tro Señor por sus rectisimos y ocul
+tos juyzios de darme tiempo, para 
+que en vuestra educacion lo mani
+festasse, pues me hallo tantos meses 
+ha rendida en esta cama, a una en
+fermedad tal, que desde su princi
+pio me amenaza con la muerte, y 
+vuestra orfandad en tiernos años, 
+asi pues como os di al mundo con 
+dolores, con los de tan penosos ac-
+cidentes, os procuro encaminar 
+ahora a Dios, y que renazcays de mi 
+para él, por medio de la virtud, a 
+que os exorto con estos documen
+tos (que he recogido con el desve-
+lo posible) juzgando es la mas esti-
+mable herencia que puedo dexaros 
+en prendas del entrañable amor 
+que os tengo, por este, y en primer 
+lugar por el que deveys a Dios, os 
+pido, y encargo, que me libreys la 
+paga en el puntual exercicio dellos, 
+y en premio os prometo (con mi 
+bendicion, que desde aquí os doy)
+de parte de Dios los doce mas ex
+celentes que un Maestro de espiri-
+tu largamente escribe, y son en su-
+ma: que tendra su divina Magestad 
+providencia particular de vosotros, 
+y os concedera la gracia del Espíri-
+tu Santo, sus consolaciones, y lum-
+bre sobrenatural, la alegría de la 
+buena conciencia, la esperanza en la 
+divina misericordia, la verdadera li
+bertad, y paz interior, oydo grato a 
+vuestras oraciones, su asistencia, y 
+favor en los trabajos, y benciciones 
+que en la Santa Escritura promete 
+a los virtuosos de todo lo temporal, 
+y ultimamente, glorioso y alegre 
+fin, que cada cosa destas por si pu-
+diera sernos incentivo para seguir 
+el camino de la virtud, aunque no 
+nos tuviera Dios de antemano o-
+bligados a ella, por ser el que es, y 
+por los inestimables beneficios ge
+nerales de la creacion, conserva-
+cion, redempcion, justificacion, y
+predeterminacion, a q se añaden en ca-
+da uno los particulares suyos. Aqui 
+os hago memoria de la calidad que 
+os dio, que se funda en la excelencia 
+de la virtud, origen de que se deriva 
+qualquiera verdadera nobleza, y 
+pues es deuda, y efecto de la virtud, 
+sed tales como ella os obliga a ser, 
+mirad que no solo es necesaria, sino 
+forzosa en los nobles la virtud, y 
+que el que la busca, es el que se 
+muestra de más generoso, y noble 
+animo, y como dixo Bruno Sigui-
+no, puede ser mas noble el esclavo 
+que su señor, pues consiste la noble-
+za mayor en mas virtud, y nace de-
+lla la nobleza, conservase en ella, 
+queda cadaver si le falta, por ser el 
+alma, y vida de la nobleza la virtud, 
+ella tiene mayor fuerza que todas 
+las armas, y tan grande claridad, que 
+aunque este en un lugar obscuro, a si 
+misma se haze luz como la más rica 
+de las piedras, q es el Carbunco, sola
+ella es suficiente premio del virtuo-
+so: es tan noble, que ni puede usar 
+mal de nada, ni nadie mal della, y el 
+sujeto propio, y asiento suyo, es el 
+más excelente, pues en el hombre 
+es el corazon, y en el mundo los 
+Principes, y Reyes; esta sola es la 
+que quita el sentimiento de las es-
+pinas de la vida, y contra ella no 
+tienen las calamidades más fuerza 
+que la niebla contra el Sol. Socra-
+tes preguntado. Por Iorgias, si te
+nía por dichoso al Rey de Persia, 
+respondio: No puedo juzgar de es-
+so, sin saber quanta virtud tiene. Y 
+conforma con esto lo que Seneca 
+después de largos discursos conclu-
+ye, de que en ella consiste la bien
+aventurada, y mas feliz vida, a 
+que añade, que sola la virtud es el 
+propio bien del hombre, pues to-
+das las demas cosas humanas se con-
+sumen, y ella da muestras de natu
+raleza eterna, no aviendo otra co-
+sa de immortal, que a los mortales 
+toque. Para que conozcays pues, 
+que es la virtud de que aqui os ha-
+blo en general (remitiendo para 
+adelante lo particular) dize Aristo-
+teles, que es un habito para elegir 
+lo recto, el qual haze bueno al hom-
+bre y sus obras, y segun la difinen 
+San Agustin, y Santo Thomas; es 
+una qualidad del alma, con que se 
+vive rectamente, y la que yo creo 
+os condederá nuestro Señor, obli-
+gándole con pidírsela, y disponer-
+os de vuestra parte; assi sea como 
+yo desseo, y que os de larga 
+vida para grangear 
+en ella mucha 
+gloria.
+Consejos que dexó la dicha 
+Señora a su hijo 
+Primogénito.
+No de los enga-
+ños injustamente 
+más recibidos en 
+el mundo, es creer, 
+que los bienes na
+turales, en que al-
+gunos por privilegio nacen here-
+dados, son para vivir mas licencio-
+samente con solo estima propia, y 
+desprecio de los otros, con super-
+fluos regalos, y soberania tiranica, 
+entregandose de tal suerte a todo 
+genero de vicios, que estos tengan 
+campal guerra, sobre ser cada uno 
+el mayor. Y assi, si bien ay algunos 
+grandes Señores, que conocen ser 
+la verdadera calidad de la Virtud, y la 
+mayor, no la heredada, sino la pro-
+pia (que procuran) pero son mas
+ los que dexandose llevar de incli-
+naciones depravadas, y aduladores 
+(peste de la Nobleza) usan mal de 
+la autoridad, y rentas con que se 
+hallan, tomando por armas contra 
+Dios, las mercedes que del recibie
+ron, y desestimandose, con lo que 
+piensan se engrandecen, pues en to
+das las cosas quieren bondad sino 
+en si mismos, como dixo San Agus-
+tin: y siendo de los que David dize 
+no conocieron la honra en que fue-
+ron criados, y la pusieron en lo que 
+mas los abatio, pues consistiendo la 
+verdadera en servir, y agradar a 
+Dios, vemos q dan en hazerse estos 
+sectarios, y cabezas mostruosas de 
+vicios, professando unos la valen
+tia (en ellos falsa y civil) otros ser 
+graciosos, hurtando el oficio a los 
+truhanes, otros sabios muy por lo 
+inchado, unos enfadados de todos, 
+y descorteses, Poetas con agenos
+versos: los locos, y los que mas lo 
+son, enamorados< y llega la desdicha 
+de nuestros tiempos a ver baylar 
+como mugeres, nietos de los que 
+truxeron casi toda su vida el peso 
+de los Arneses sobre si, y las armas 
+en la mano, con que les ganaron 
+lo que tan indignamente posseen. 
+Tampoco faltan otros, que hazen 
+gracia de exceder en los brindis de 
+los combites, y de no jugar limpio, 
+ni tratar verdad< y gala de vivir mu
+chos años en mal estado (descuydo 
+digno de ser llorado en España) por 
+la educación de sus Nobles, y el re
+presentarle yo en estas lastimosas 
+verdades, es como pintaros aquí la 
+fealdad de los vicios, para que con 
+horror della les cobreys el aborre
+cimiento que desseo, creyendo jun-
+tamente, que la vida del Señor gra-
+nde (no contentandose con huyr de
+llos) ha de ser un continuo exerci-
+cio de virtudes, porque la magna-
+nima fortaleza, que es la propia, y 
+connatural de los Ilustres, procede 
+de corazon grande, y este debe des
+preciar la bxeza mayor, que es el
+abatirse a los vicios: segun Aristo-
+teles, y Ciceron, consiste en tres co-
+sas, desestimar todas las exteriores, 
+sufrir mucho por la Virtud, y por 
+ella acometer arduas y grandes em-
+presas en beneficio comun: y la for-
+taleza Christiana, es sufrir, y hazer 
+mucho por Dios, y su gloria, y bien 
+de todos, venciendose uno a si mis-
+mo, triunfo a que esta vinculada la 
+verdadera grandeza. Considerad 
+pues, que la honra, y hazienda os la 
+dio Dios para repartirla, y que 
+aveys nacido tanto para los demas, 
+como para vos mismo: assi lo dixo 
+Ciceron del Noble, y creed, que 
+son talentos de que les aveys de dar 
+cuenta muy estrecha, y carga con 
+que os ha obligado a ser defensor
+es de su Fe y Religion, accerrimo per-
+seguidor de los vicios en vos, y en 
+quantos corrieren por vuestra cuen
+ta, y exemplo de virtud a todos, 
+que según el que nos dieron los Ro
+manos en aquellos dos tempos, pa-
+ra entrar en el de la honra, se ha de 
+passar primero por el de la virtud, 
+y no os parezca que es mudaros de 
+profession obligaros a esto, y daros 
+la de Religioso, que seria hazer 
+agravio a la Nobleza, donde se ha 
+de hallar lo mejor de cada estado, 
+de los Prelados, el ser limosneros: 
+de los Religiosos, el zelo y devo-
+cion : de buenos Reyes, el exerci-
+cio de la justicia : de los Soldados, el 
+valor y alentado corazon : de los Pa-
+dres de Familias, la piedad y amor 
+para con sus subditos : y aun de los 
+Artifices, el huyr la ociosidad, rin-
+diendose al incansable trabajo, que 
+es obligacion poner en el beneficio 
+y buen gobierno d elos vassallos, el 
+qual pagan con las rentas, y sin esse
+desuelo no podrian obtenerse jus-
+tamente. Si soys el que deveys a 
+Dios, y a vuestra sangre, aveys de 
+exercitar con su divina Magestad 
+las tres Virtudes Theologales, y de 
+las Cardinales, y Morales la Pruden-
+cia con todos, y en todos tiempos 
+la Iusticia y equidad con vuestros 
+subditos, Fortaleza, Templanza, 
+Continencia en vos mismo, Obe-
+diencia con vuestro Rey, y Padre 
+(que la de la Iglesia y Confessor en 
+lo primero se incluye) Piedad con 
+todos, y mas con los pobres afligi
+dos y enfermos, Liberalidad, Pacien
+cia, y Afabilidad (grave en las oca-
+siones que la pidieren) con vuestros 
+familiares, amigos, y hermanos: Re-
+signacion en los trabajos, y en las 
+prosperidades, animo agradecido a 
+Dios, con desprecio dellas en quan-
+to no sean importantes para bolver-
+selas a el. Esto es lo que pretendo 
+aquí individuaros, y enseñaros con
+amor, y obligacion de Madre, por 
+descuento de las que con el mas 
+propio suyo, que de los hijos, 
+los crian afeminados, y toleran ma
+las costumbres. Bien veo, que sien-
+do tan varias las condiciones huma-
+nas, es muy dificil el dar reglas, y 
+preceptos a una, que la ajusten al 
+trato de todas pero estas generales 
+van sugetas al dominio de la prud-
+encia, que se ha de usar en la apli-
+cación, según los estados, tiempos, 
+lugares, y condiciones, porque a es-
+ta virtud, q es guia, y Maestra de to-
+das, Cicero la llamo justamete Arte 
+de la vida, y Aristoteles conocio sin 
+luz de Fe, q no la podia tener verda-
+dera ninguno, que no fuesse Vir-
+tuoso, en cuya conformidad dize 
+San Basilio, que ay dos prudencias, 
+una Christiana, y otra Gentilica, que 
+es la fagacidad, siempre encamina-
+da a engañar, y a la particular con-
+veniencia de la primera os preciad,
+y usad en todas vuestras acciones 
+con sencillez recatada, para conocer 
+las maquinas de los maliciosos, y no 
+ser engañado dellos. Espero pues 
+que llegareys con el exercicio des-
+tos consejos, a ser un exemplar de 
+buenos Cavalleros, y grandes Seño-
+res, imitando la Religion del Em-
+perador Constantino, el valor de 
+Carlo Magno, el menosprecio del 
+mundo y sus grandezas de Carlos 
+Quinto, la clemencia del Santo Rey 
+Luys, la templanza de Theodosio, 
+constancia del Rey Ingles Artus, 
+justicia y verdad de Gofredo de 
+Bullon, prudencia del Rey Fernan-
+do de Castilla, llamado el Santo, li-
+beralidad de Don Alonso el Sexto, 
+estudiosidad, y sabiduria del otro 
+Don Alonso tan conocido por ella, 
+que teniendo estos Principes el va-
+lor y virtud natural del animo illus-
+trado con el realce de nuestra Santa 
+Fe, no necessitamos de valernos de
+Numa, Anibal, Socrates, Cesar, Sci-
+pion, Caton, Trajano, Platon, Ale-
+xandro, Marco Aurelio, a quien se 
+atribuyen las mismas virtudes, por-
+que faltandoles la excelencia mayor 
+de la verdadera Religion, no pu-
+dieron ser en ellos perfectas: y si a 
+todos no quadraredes (que es casi 
+imposible) contentaos con el agra-
+do de los que bien sienten, pues 
+aunque son los menos, es la mejor 
+parte, y principalmente con hazer 
+lo que deveys.
+Para con Dios, y todo lo to-
+cante a Religion
+PUES el mejor, y 
+cierto principio de 
+las cosas es Dios 
+guia, y fundamen
+to de toda Virtud 
+(y conocieron esto 
+aun los Gentiles, que Tito Livio
+nos dexo escrito: al que sirve a Dios
+todo le sucede bien con este prin
+cipio, y assi lo sintieron Platon, Ci-
+ceron, Socrates, y Aristoteles) Digo
+lo primero, que el titulo principal
+de que os aveys de preciar, ha de
+ser el de Christiano, teniendo por
+asentado el faltar a todos, para con-
+servaros en merecer este, que reci-
+bistes de Dios tan de valde, y de que
+siempre os aveys de reconocer in-
+digno. 
+En las cosas tocantes a la autori-
+dad del Sumo Pontifice, e Inquisi-
+cion, asistid con particular gusto y
+desuelo siempre que seays menes-
+ter, y hablad de lo uno, y lo otro
+con gran veneracion, sintiendo con
+igual piedad. 
+A las censuras de la Iglesia tened
+mucho respeto, y por todos los in-
+tereses del mundo ni un instante os
+descuydeys en incurrir en ellas, ni
+lo consintays a vuestros ministros y
+vasallos, como tampoco ser por cau-
+sa vuestra nadie descomulgado.
+Hablad muy bien siempre de to-
+das las Religiones, y favorecedlas 
+quanto os sea possible, y aun a qual-
+quiera Religioso y Sacerdote (que
+es la mayor dignidad, pues según
+San Leon excede a la Real) venerad
+y respetad en toda ocasión, tenien-
+do por buena suerte el ofrecerseos
+alguna de mostrarles rendimiento, 
+y no lo rehuseys en publico (por lo
+que deveys al buen exemplo) no
+consintays jamas que dellos se ha-
+ble con nota, ni indecencia delan-
+te de vos, aunque sea en materia 
+leve y no os contenteys con esto, 
+mas estad tan lexos de recibir es-
+candalo por falta (aunque sea muy 
+publica) de cualquier Eclesiastico, 
+o Religioso< y hazed tanta estima
+de las Religiones, que si de alguna
+de las aprobadas por la Iglesia fues
+se possible ver apostatar a todos los
+De ella, quedando solo uno que la
+observase, en el venereys, y estimeys
+su Religion con la fineza, que vien-
+dola muy poblada de Santos: y tan
+capaz ha de ser vuestro corazon que 
+quepa en el, el amor de todas las
+Religiones, assi de las que comuni-
+cays, como de las que nunca aveys
+visto, que esse sera el mas desinte-
+ressado, fundandole solo en ser co-
+lumnas de la Iglesia. 
+No tendreys por ningun caso
+puntos de cortesias con los Obispos
+y Prelados, tomad dellos con esti-
+macion cualquiera, y dadles la qu
+quisieren, teniendo os por inferior
+del que mas lo es entre los Minis
+tros de la Iglesia. 
+Con gente virtuosa, y dedidada a
+Dios nunca sustenteys diferencias,
+que saldreys mal dellas, porque los 
+ampara el mas poderoso patroci-
+nio, assistiendolos siempre su divina
+Magestad.
+A los Religiosos, y Religiosas de
+los Conventos de vuestros Estados, 
+dad toda la cortesia que a los de o-
+tras partes, y concededles las cosas
+de gracia factibles que os pidieren
+por criados, y vassallos, para que les
+queden bien afectos; y siempre vos
+ganareys en su comunicación, bus-
+cando para ello los mas aprovecha-
+dos, y Doctos: pero mirad mucho en
+no distraerlos, ni hazerlos faltar por
+vuestro respecto a los de sus institu-
+tos, como tampoco a los Prelados
+en lo mas conveniente a las Reli-
+giones: No os mateys en governar-
+las, que ni lo entienden, ni es de-
+cente introduzirse en esto de los secu-
+lares, aunque sean fundadores, pues
+por serlo han de dessear mas la per-
+feccion de aquellas obras, que el 
+cumplimiento de sus antojos.
+Parece que siendo de ordinario
+en los lugares propios hijos de vas-
+sallos los Clerigos, tendra algun in
+conveniente tratarlos con tanta fa-
+miliaridad, pero en casos forzosos 
+sea con cortesia, y oyendolos alo-
+menos en pie, y haziendolos a
+ellos cubrir; y aun con vuestros Ca-
+pellanes no useys del, vos ni dexeys
+de quitarles el sombrero, hazed que
+se cubran, y para no estar en pie, en
+vendiciendo la mesa, que se vayan.
+Preciaos de cumplir con las obli-
+gaciones devidas a vuestra Parro-
+chia donde quiera que esteys, no
+pretendiendo exempciones en esto, 
+ni ceremonias nuevas para vuestra
+persona, sino admitiendo con hu-
+mildad las que hallaredes introdu-
+zidas en vuestro Estado con los an-
+tecessores señores del. 
+Respetad mucho los Templos, es-
+tando en ellos con gran compostura
+descubierto, y de rodillas (no con
+una sola) quanto podays, meditando
+con el corazon lo que pronuncian
+los labios, atentos los ojos a la Ma-
+gestad que alli preside. No seays de
+los inquietos, y vagueadores q vio
+el Propheta; ni permitireys os ha-
+blen en negocios, sino lo muy for-
+zoso, y si para esto algun criado hin-
+care la rodilla, sepa ha de ser enton-
+ces al Altar, y no a vos.
+Assistid a los divinos Oficios siem-
+pre que podays, no permitiendo si-
+tial estando patente el Santissimo
+Sacramento, ni en Semana Santa. 
+Oyd de buena gana Sermones, 
+con desseo de aprovechar, y no di-
+gays mal de ninguno, aunque no os 
+aya parecido bien. 
+Acudireys a las processiones, imi-
+tando alli interiormente el espiritu
+del Santo Rey David.
+De las Iglesias de vuestro Estado
+hareys cuydar mucho (q no esta des-
+obligados desto los Señores tempora-
+les, por tocar principalmete a los O-
+bispos) procurad las tega co todas de-
+cencia, y proveydas de lo necessario;
+y para edificarlas, y adornarlas, con 
+Retablos, como tambien para Her-
+mitas, y otras cosas de devocion de 
+vuestros vassallos los ayudareys con limosnas, 
+y se las alabareys.
+Para las fiestas de acavallo, y ar-
+mas que huvieredes de hazer, to-
+mad motivos devotos en honra de 
+nuestro Señor, y de sus Santos, por-
+que saqueys provecho de todo, y no
+aya en ellas desgracias. 
+Cada año celebrareys con solem-
+nidad de la Iglesia (a lo menos) la
+Fiesta del Santo de vuestro nombre.
+Y del Angel de la Guarda, a quien
+aveys de tener gran respeto, conti-
+nua consideracion de traerle pre-
+sente, y agradecimiento a los mu-
+chos beneficios, que según ponde-
+ran los Santos Doctores Bernardo, 
+Ambrosio, y Basilio, exercitan estos
+gloriosos Angeles con todas las al-
+mas de que tienen tutela; Platon, 
+y otros muchos Philosophos Gen-
+Tiles lo conocieron assi, y los vene-
+raron por ello. 
+Mas vuestra mayor Fiesta reser-
+vad para el dia en que cumplieredes
+años de Bautismo, este han de ser las
+galas, y regozijo, en reconocimien-
+to de averos hecho Dios hijo de su 
+Iglesia, y no como se acostumbra en
+el que nacimos hijos de ira, cuya
+memoria siepre nos devria entriste-
+zer, enternezer, y lastimar; y una
+de las acciones que aveys de hazer
+con mucha atencion y devocion en
+el dia desta Fiesta, ha de ser ofrecer
+en la Missa (saliendo de vuestro
+puesto a besar la mano al Sacerdote)
+tantas monedas de oro, quantos 
+años cumplieredes, para que se gas-
+ten en ornato de la Iglesia, o limos-
+nas. 
+Vuestra principal devocion em-
+plead en el Santissimo Sacramento
+del Altar, y aunque no os ha de mo-
+tivar a ello interes, sino el amor, mi-
+rad lo que ha engrandezido Dios
+por este camino sobre todas las fa-
+milias del mundo, la imperial Casa
+de Austria, imitad los actos de Fe
+visa que muchos han hecho con
+este divino Misterio. De uno de los
+Potentados de Italia de nuestros
+tiempos, oi, que aviendo de traerle
+a la hora de su muerte el Viatico
+hizo colgar, cubrir de alhombras, y 
+perfumar su casa, inchirla de lumi-
+narias, y todo genero de rico ador-
+no, y musica, y que al entrar este Su-
+premo Rey por sus puertas, se dispa-
+rase la artilleria del Castillo, que le
+hizo una gran salva. A este exemplo 
+añadire otro de la Condesa de 
+Buendia Doña Maria de Acuña, 
+bien conocida por su rara virtud. 
+Esta Señora llegando a su casa un
+dia, que venia de Missa, y oyendo
+trayan la comunion a un cochero
+suyo, quiso entrar en el aposento 
+donde estava, y viendole (como lo
+avia juzgado) tan indecente para es-
+perar tal huesped, mandando ocu-
+par los reposteros en limpiarle, y
+colgarle con lo mejor de su casa, 
+y a los q le acopanava en coponer un
+curioso Altar todo muy perfumado, 
+assistio alli hasta q recibio, y acopaño
+(al salir) el Santissimo Sacramento: lo
+qual hareys vos, no solo encontran-
+dole, sino buscando ocasiones para
+ello, alumbradle por vuestra perso-
+na, y las de vuestros pajes y criados, 
+tomad la esclavitud suya (y de la
+Virgen nuestra Señora, que ha de 
+ser vuestro amparo y Madre) y al fin
+en todas ocasiones reverenciad, y 
+servid a aquel Divino Señor Sacra-
+mentado en el Misterio de Fe que 
+mas la manifiesta, pues hasta los irra-
+cionales nos enseñan esto, como en-
+tre otros muchos se vio en la oveji-
+ta que crio San Francisco, y el cor-
+derillo, de que escribe Estephano
+Iuliaco.
+--this part intentionally left blank to check after test--
+--this part intentionally left blank to check after test--
+--this part intentionally left blank to check after test--
