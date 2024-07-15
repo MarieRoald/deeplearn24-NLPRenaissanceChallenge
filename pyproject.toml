@@ -6,8 +6,16 @@ authors = [
     {name = "", email = ""},
 ]
 dependencies = [
+    "opencv-python>=4.8.1.78",
+    "numpy>=1.24.1",
+    "doc-ufcn>=0.1.8",
+    "scikit-image>=0.24.0",
+    "pillow>=10.4.0",
+    "deskew>=1.5.1",
+    "tqdm>=4.66.4",
+    "jupyter>=1.0.0",
+    "python-docx>=1.1.2",
     "mlflow>=2.14.2",
-    "setuptools>=70.3.0",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -20,3 +28,15 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.5.1",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["I"]

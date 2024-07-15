@@ -23,3 +23,12 @@ with mlflow.start_run():
     mlflow.log_metric("foo", 1)
     mlflow.log_metric("bar", 2)
 ```
+
+## Source for book
+https://bdh-rd.bne.es/viewer.vm?lang=en&id=0000194858&page=1
+
+
+## Install PDFImages to extract images from the book PDF
+```
+sudo apt install poppler-utils
+```
