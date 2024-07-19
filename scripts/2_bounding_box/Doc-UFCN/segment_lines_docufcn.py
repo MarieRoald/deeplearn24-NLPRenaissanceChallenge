@@ -1,53 +1,47 @@
 import logging
-import sys
 from pathlib import Path
-from typing import Generator, Iterable, Literal
+from typing import Literal
 
 import cv2
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from deeplearn24.types import ImageArray
+from deeplearn24.utils import setup_logging
 from doc_ufcn import models
 from doc_ufcn.main import DocUFCN
 from scipy.ndimage import maximum_filter1d
 
-logging.basicConfig(format="[%(levelname)s] %(message)s", stream=sys.stdout, level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+DEBUG = True
 
 
-def save_polygon_bounding_boxes(detected_polygons: dict, image: ImageArray) -> None:
-    """polygon data example:
-    {
-        1: [
-        {
-            'confidence': 0.99,
-            'polygon': [(490, 140), (490, 1596), (2866, 1598), (2870, 140)]
-        }
-        ...
-        ],
-        ...
-    }
-    """
-    bounding_box_vis = image.copy()
+def preprocess_image_and_run_doc_ufcn(image: ImageArray) -> ImageArray:
+    image_copy = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    # image_copy = mask_away_non_roi(image_copy, axis=0, min_size=10)
+    image_copy = mask_away_non_roi(image_copy, axis=1)
 
-    for class_id, polygons in detected_polygons.items():
-        for idx, polygon in enumerate(polygons):
-            points = polygon["polygon"]
-            x, y, w, h = cv2.boundingRect(np.array(points))
-            cv2.rectangle(bounding_box_vis, (x, y), (x + w, y + h), (0, 255, 0), 2)
-            # crop image using the bounding box
-            cropped_image = image[y : y + h, x : x + w]
-            # save image as png
-            cv2.imwrite(
-                str(page_output_directory / f"bounding_box_{class_id}_{idx:03d}.png"),
-                cropped_image,
-            )
-    return bounding_box_vis
+    # Run Doc-UFCN
+    _detected_polygons, _probabilities, mask, _overlap = model.predict(
+        image_copy, raw_output=True, mask_output=True, overlap_output=True
+    )
+
+    # get bounding boxes for the polygons
+    if DEBUG:
+        cv2.imwrite(
+            str(page_output_directory / f"DEBUG_countours.png"),
+            cv2.cvtColor(image_copy, cv2.COLOR_BGR2RGB),
+        )
+        cv2.imwrite(str(page_output_directory / f"DEBUG_mask.png"), mask)
+    return mask
 
 
-def iter_bounding_boxes_from_markers(
+def get_bounding_boxes_from_markers(
     markers: ImageArray, horisontal_padding: int, vertical_padding: int
-) -> Generator[tuple[int, tuple[int, int, int, int]], None, None]:
+) -> dict[int, tuple[int, int, int, int]]:
+    out = {}
     for marker in np.unique(markers):
         if marker <= 0:
             continue
@@ -61,26 +55,31 @@ def iter_bounding_boxes_from_markers(
         y = max(0, y - vertical_padding)
         h += vertical_padding * 2
 
-        yield marker, (x, y, w, h)
+        out[marker] = (x, y, w, h)
+
+    return out
+
+
+def draw_bounding_boxes(
+    bounding_boxes: dict[int, tuple[int, int, int, int]], image: ImageArray
+) -> ImageArray:
+    bounding_box_vis = image.copy()
+    for marker, (x, y, w, h) in bounding_boxes.items():
+        cv2.rectangle(bounding_box_vis, (x, y), (x + w, y + h), (0, 255, 0), 2)
+    return bounding_box_vis
 
 
 def save_bounding_boxes(
-    bounding_boxes: Iterable[tuple[int, tuple[int, int, int, int]]], image: ImageArray
+    bounding_boxes: dict[int, tuple[int, int, int, int]], image: ImageArray
 ) -> None:
     bounding_box_vis = image.copy()
-    for marker, (x, y, w, h) in bounding_boxes:
-        if marker <= 0:
-            continue
-
-        cv2.rectangle(bounding_box_vis, (x, y), (x + w, y + h), (0, 255, 0), 2)
+    for marker, (x, y, w, h) in bounding_boxes.items():
         # crop image using the bounding box
         cropped_image = image[y : y + h, x : x + w]
         # save image as png
         cv2.imwrite(
             str(page_output_directory / f"bounding_box_marker_{marker:03d}.png"), cropped_image
         )
-
-    return bounding_box_vis
 
 
 def mask_away_non_roi(image: ImageArray, axis: Literal[0, 1], min_size: int = 30) -> ImageArray:
@@ -105,15 +104,16 @@ def mask_away_non_roi(image: ImageArray, axis: Literal[0, 1], min_size: int = 30
         image[:, thresh.astype(bool), :] = np.median(image, axis=(0, 1))
 
     # Save debug plots
-    plt.figure()
-    plt.plot(-line_sum)
-    plt.axhline(ret)
-    plt.savefig(str(page_output_directory / f"DEBUG_histogram_{axis}.png"))
-    plt.figure()
-    plt.plot(-thresh)
-    plt.savefig(str(page_output_directory / f"DEBUG_threshold_{axis}.png"))
-    plt.close("all")
-    cv2.imwrite(str(page_output_directory / f"DEBUG_thresholded_image_{axis}.png"), image)
+    if DEBUG:
+        plt.figure()
+        plt.plot(-line_sum)
+        plt.axhline(ret)
+        plt.savefig(str(page_output_directory / f"DEBUG_histogram_{axis}.png"))
+        plt.figure()
+        plt.plot(-thresh)
+        plt.savefig(str(page_output_directory / f"DEBUG_threshold_{axis}.png"))
+        plt.close("all")
+        cv2.imwrite(str(page_output_directory / f"DEBUG_thresholded_image_{axis}.png"), image)
 
     return image
 
@@ -137,17 +137,144 @@ def run_watershed(mask: ImageArray, processed_mask: ImageArray, image: ImageArra
     markers = cv2.watershed(image, markers)
 
     # Save debug images
-    cv2.imwrite(str(page_output_directory / f"DEBUG_guaranteed_bg.png"), guaranteed_bg)
-    cv2.imwrite(str(page_output_directory / f"DEBUG_unknown.png"), unknown)
-    cv2.imwrite(str(page_output_directory / f"DEBUG_connected_components.png"), markers)
-    cv2.imwrite(str(page_output_directory / f"DEBUG_watershed.png"), markers * 10)
+    if DEBUG:
+        cv2.imwrite(str(page_output_directory / f"DEBUG_guaranteed_bg.png"), guaranteed_bg)
+        cv2.imwrite(str(page_output_directory / f"DEBUG_unknown.png"), unknown)
+        cv2.imwrite(str(page_output_directory / f"DEBUG_connected_components.png"), markers)
+        cv2.imwrite(str(page_output_directory / f"DEBUG_watershed.png"), markers * 10)
+
+
+def get_page_number(image_path: Path) -> int:
+    is_right = "right" in image_path.stem
+    image_number = int(image_path.stem.split("-")[1])
+
+    if is_right:
+        page_number = (image_number - 1) * 2 + 1
+    else:
+        page_number = (image_number - 1) * 2
+    return page_number
+
+
+def cleanup_mask(
+    mask: ImageArray, closed_mask_filename: Path, processed_mask_filename: Path
+) -> ImageArray:
+    # Create padded image to prevent boundary issues with the morphological operators
+    width, height = mask.shape
+    padded_mask = np.zeros((width * 3, height * 3), dtype=mask.dtype)
+    padded_mask[width : 2 * width, height : 2 * height] = mask
+
+    # Denoise using an opening operator
+    padded_mask = cv2.morphologyEx(
+        padded_mask, cv2.MORPH_OPEN, np.ones((5, 1), np.uint8), borderValue=0, iterations=1
+    )
+
+    # Close vertical gaps
+    padded_mask = cv2.morphologyEx(
+        padded_mask,
+        cv2.MORPH_CLOSE,
+        np.ones((1, 201), np.uint8),
+        borderValue=0,
+        iterations=1,
+    )
+
+    # Remove noise
+    padded_mask = cv2.morphologyEx(
+        padded_mask,
+        cv2.MORPH_OPEN,
+        np.ones((3, 3), np.uint8),
+        borderValue=0,
+        iterations=1,
+    )
+
+    if DEBUG:
+        cv2.imwrite(str(closed_mask_filename), padded_mask)
+
+    # Erode the mask horisontally to split joined lines
+    padded_mask = cv2.erode(padded_mask, np.ones((1, 5), np.uint8), iterations=16)
+
+    # "Unpad the mask"
+    mask = padded_mask[width : 2 * width, height : 2 * height]
+
+    # Ensure mask is of type uint8
+    if mask.dtype != np.uint8:
+        mask = mask.astype(np.uint8)
+
+    if DEBUG:
+        cv2.imwrite(str(processed_mask_filename), mask)
+
+    return mask
+
+
+def sort_boxes_by_vertical_position(
+    bounding_boxes: dict[int, tuple[float, float, float, float]],
+) -> dict[int, tuple[float, float, float, float]]:
+    sorted_markers = sorted(bounding_boxes, key=lambda m: bounding_boxes[m][1])
+    return {m: bounding_boxes[m] for m in sorted_markers}
+
+
+def save_bounding_boxes_with_transcription(
+    bounding_boxes: dict[int, tuple[float, float, float, float]],
+    transcription_lines: list[str] | None,
+    page_output_directory: Path,
+    line_count: int,
+) -> tuple[pd.DataFrame, int]:
+    rows = []
+
+    for marker, (x, y, w, h) in bounding_boxes.items():
+        if transcription_lines is None:
+            transcription = None
+        else:
+            transcription = transcription_lines[line_count - 1]
+
+        logger.debug(f"Line {line_count}: {x=}, {y=}, {w=}, {h=}")
+        logger.debug(f"Trancsription: {transcription}")
+
+        # If area of box is too small, ignore it
+        logger.debug("Bounding box width: %d, height: %d, area: %d", w, h, w * h)
+        if w * h < 1000 and x > 100:
+            continue
+
+        # If the box is to high up and likely to be a header, ignore it
+        if y < 50:
+            continue
+
+        # If the box is to far down to and likely to be a footer, ignore it
+        if y > 770:
+            continue
+
+        # crop image using the bounding box
+        cropped_image = image[y : y + h, x : x + w]
+
+        # save image as png
+        bb_path = page_output_directory / f"bounding_box_marker_{marker:03d}.png"
+        cv2.imwrite(str(bb_path), cropped_image)
+
+        row = {
+            "page_number": page_number,
+            "line_number": line_count,
+            "transcription": transcription,
+            "image_path": str(bb_path),
+            "x": x,
+            "y": y,
+            "w": w,
+            "h": h,
+        }
+        rows.append(row)
+
+        line_count += 1
+
+    df = pd.DataFrame(rows)
+    logger.debug("Transcription info\n%s", df)
+    df.to_csv(page_output_directory / "bounding_boxes.csv")
+    return df, line_count
 
 
 if __name__ == "__main__":
     input_directory = Path("data/1_preprocessing/extracted_pages/processed_page_images")
 
-    output_directory = Path("data/2_bounding_box/Doc-UFCN")
+    output_directory = Path("data/2_bounding_box/Doc-UFCN_processed")
     output_directory.mkdir(exist_ok=True, parents=True)
+    setup_logging(log_dir=Path("logs/2_bounding_box/Doc-UFCN"), log_level=logging.DEBUG)
 
     image_path = Path(
         "data/1_preprocessing/extracted_pages/processed_page_images/image-002-005_left.png"
@@ -158,51 +285,50 @@ if __name__ == "__main__":
     model = DocUFCN(len(parameters["classes"]), parameters["input_size"], "cpu")
     model.load(model_path, parameters["mean"], parameters["std"])
 
-    for image_path in sorted(input_directory.glob("*.png")):
-        print(image_path)
-        image_path = Path(image_path)
+    image_paths = sorted(input_directory.glob("*.png"), key=get_page_number)
 
-        page_output_directory = output_directory / image_path.stem
-        page_output_directory.mkdir(exist_ok=True, parents=True)
+    for page_number in range(16):
+        if page_number < 13:
+            file_name = f"pdf_p{page_number+1:d}.txt"
+            transcription_path = Path("data/1_preprocessing/extracted_transcriptions") / file_name
+            transcription_lines = transcription_path.read_text().splitlines()
+        else:
+            transcription_lines = None
+        logger.debug("Transcription lines:\n%s", transcription_lines)
 
-        image = cv2.imread(str(image_path))
-        image_copy = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        # image_copy = mask_away_non_roi(image_copy, axis=0, min_size=10)
-        image_copy = mask_away_non_roi(image_copy, axis=1)
+        spread = ["left", "right"] if page_number else ["right"]
+        bounding_box_list = []
+        line_count = 1
 
-        detected_polygons, probabilities, mask, overlap = model.predict(
-            image_copy, raw_output=True, mask_output=True, overlap_output=True
-        )
+        for page in spread:
+            image_path = (
+                input_directory / f"image-{page_number + 1:03d}-{page_number*5:03d}_{page}.png"
+            )
+            logger.info("Processing %s", image_path)
 
-        # get bounding boxes for the polygons
-        # bounding_box_vis = save_polygon_bounding_boxes(detected_polygons, image)
+            page_output_directory = output_directory / image_path.stem
+            page_output_directory.mkdir(exist_ok=True, parents=True)
 
-        # Save intermediate states for debugging
-        # cv2.imwrite(str(page_output_directory / f"DEBUG_bounding_boxes.png"), bounding_box_vis)
-        cv2.imwrite(
-            str(page_output_directory / f"DEBUG_countours.png"),
-            cv2.cvtColor(image_copy, cv2.COLOR_BGR2RGB),
-        )
-        cv2.imwrite(str(page_output_directory / f"DEBUG_mask.png"), mask)
+            # Preprocess image
+            image = cv2.imread(str(image_path))
+            mask = preprocess_image_and_run_doc_ufcn(image)
+            mask = cleanup_mask(
+                mask,
+                closed_mask_filename=page_output_directory / f"DEBUG_mask_closed.png",
+                processed_mask_filename=page_output_directory / f"DEBUG_mask_processed.png",
+            )
 
-        # Image analysis post processing of the mask to try to split joined lines
-        original_mask = mask.copy()
-        mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5, 1), np.uint8), iterations=1)
-        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((1, 21), np.uint8), iterations=1)
-        cv2.imwrite(str(page_output_directory / f"DEBUG_mask_closed.png"), mask)
+            # Use connected components to label the known blobs
+            ret, markers = cv2.connectedComponents(mask)
+            bounding_boxes = get_bounding_boxes_from_markers(
+                markers, horisontal_padding=30, vertical_padding=10
+            )
+            bounding_boxes = sort_boxes_by_vertical_position(bounding_boxes)
 
-        # Erode the mask horisontally to split joined lines
-        mask = cv2.erode(mask, np.ones((1, 5), np.uint8), iterations=10)
+            if DEBUG:
+                bbox_vis = draw_bounding_boxes(bounding_boxes, image)
+                cv2.imwrite(str(page_output_directory / f"DEBUG_bounding_boxes2.png"), bbox_vis)
 
-        # Ensure mask is of type uint8
-        if mask.dtype != np.uint8:
-            mask = mask.astype(np.uint8)
-        cv2.imwrite(str(page_output_directory / f"DEBUG_mask_processed.png"), mask)
-
-        # Use connected components to label the known blobs
-        ret, markers = cv2.connectedComponents(mask)
-        bounding_boxes = iter_bounding_boxes_from_markers(
-            markers, horisontal_padding=30, vertical_padding=10
-        )
-        bbox_vis2 = save_bounding_boxes(bounding_boxes, image)
-        cv2.imwrite(str(page_output_directory / f"DEBUG_bounding_boxes2.png"), bbox_vis2)
+            _df, line_count = save_bounding_boxes_with_transcription(
+                bounding_boxes, transcription_lines, page_output_directory, line_count
+            )
