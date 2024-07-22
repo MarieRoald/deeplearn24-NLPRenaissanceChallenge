@@ -32,10 +32,10 @@ def preprocess_image_and_run_doc_ufcn(image: ImageArray) -> ImageArray:
     # get bounding boxes for the polygons
     if DEBUG:
         cv2.imwrite(
-            str(page_output_directory / f"DEBUG_countours.png"),
+            str(page_debug_directory / f"DEBUG_countours.png"),
             cv2.cvtColor(image_copy, cv2.COLOR_BGR2RGB),
         )
-        cv2.imwrite(str(page_output_directory / f"DEBUG_mask.png"), mask)
+        cv2.imwrite(str(page_debug_directory / f"DEBUG_mask.png"), mask)
     return mask
 
 
@@ -79,7 +79,7 @@ def save_bounding_boxes(
         cropped_image = image[y : y + h, x : x + w]
         # save image as png
         cv2.imwrite(
-            str(page_output_directory / f"bounding_box_marker_{marker:03d}.png"), cropped_image
+            str(page_debug_directory / f"bounding_box_marker_{marker:03d}.png"), cropped_image
         )
 
 
@@ -109,12 +109,12 @@ def mask_away_non_roi(image: ImageArray, axis: Literal[0, 1], min_size: int = 30
         plt.figure()
         plt.plot(-line_sum)
         plt.axhline(ret)
-        plt.savefig(str(page_output_directory / f"DEBUG_histogram_{axis}.png"))
+        plt.savefig(str(page_debug_directory / f"DEBUG_histogram_{axis}.png"))
         plt.figure()
         plt.plot(-thresh)
-        plt.savefig(str(page_output_directory / f"DEBUG_threshold_{axis}.png"))
+        plt.savefig(str(page_debug_directory / f"DEBUG_threshold_{axis}.png"))
         plt.close("all")
-        cv2.imwrite(str(page_output_directory / f"DEBUG_thresholded_image_{axis}.png"), image)
+        cv2.imwrite(str(page_debug_directory / f"DEBUG_thresholded_image_{axis}.png"), image)
 
     return image
 
@@ -139,10 +139,10 @@ def run_watershed(mask: ImageArray, processed_mask: ImageArray, image: ImageArra
 
     # Save debug images
     if DEBUG:
-        cv2.imwrite(str(page_output_directory / f"DEBUG_guaranteed_bg.png"), guaranteed_bg)
-        cv2.imwrite(str(page_output_directory / f"DEBUG_unknown.png"), unknown)
-        cv2.imwrite(str(page_output_directory / f"DEBUG_connected_components.png"), markers)
-        cv2.imwrite(str(page_output_directory / f"DEBUG_watershed.png"), markers * 10)
+        cv2.imwrite(str(page_debug_directory / f"DEBUG_guaranteed_bg.png"), guaranteed_bg)
+        cv2.imwrite(str(page_debug_directory / f"DEBUG_unknown.png"), unknown)
+        cv2.imwrite(str(page_debug_directory / f"DEBUG_connected_components.png"), markers)
+        cv2.imwrite(str(page_debug_directory / f"DEBUG_watershed.png"), markers * 10)
 
 
 def get_page_number(image_path: Path) -> int:
@@ -216,7 +216,7 @@ def sort_boxes_by_vertical_position(
 def save_bounding_boxes_with_transcription(
     bounding_boxes: dict[int, tuple[float, float, float, float]],
     transcription_lines: list[str] | None,
-    page_output_directory: Path,
+    output_directory: Path,
     line_count: int,
     spread_number: int,
     spread_side: Literal["left", "right"],
@@ -250,16 +250,18 @@ def save_bounding_boxes_with_transcription(
         cropped_image = image[y : y + h, x : x + w]
 
         # save image as png
-        bb_path = page_output_directory / f"bounding_box_{line_count:03d}.png"
-        cv2.imwrite(str(bb_path), cropped_image)
+        bbox_filename = f"image_{spread_number}_{spread_side}_{line_count:03d}.png"
+        bbox_path = output_directory / split / bbox_filename
+        bbox_path.parent.mkdir(exist_ok=True, parents=True)
+        cv2.imwrite(str(bbox_path), cropped_image)
 
         row = {
+            "file_name": str(bbox_path.relative_to(output_directory)),
             "spread_number": spread_number,
             "spread_side": spread_side,
             "split": split,
             "line_number": line_count,
             "transcription": transcription,
-            "image_path": str(bb_path),
             "x": x,
             "y": y,
             "w": w,
@@ -270,7 +272,7 @@ def save_bounding_boxes_with_transcription(
         line_count += 1
 
     logger.debug("Transcription info\n%s", rows)
-    return pd.DataFrame(rows), line_count
+    return pd.DataFrame(rows).set_index("file_name"), line_count
 
 
 if __name__ == "__main__":
@@ -316,16 +318,18 @@ if __name__ == "__main__":
             )
             logger.info("Processing %s", image_path)
 
-            page_output_directory = output_directory / image_path.stem
-            page_output_directory.mkdir(exist_ok=True, parents=True)
+            page_debug_directory = (
+                output_directory.parent / f"{output_directory.name}_debug" / image_path.stem
+            )
+            page_debug_directory.mkdir(exist_ok=True, parents=True)
 
             # Preprocess image
             image = cv2.imread(str(image_path))
             mask = preprocess_image_and_run_doc_ufcn(image)
             mask = cleanup_mask(
                 mask,
-                closed_mask_filename=page_output_directory / f"DEBUG_mask_closed.png",
-                processed_mask_filename=page_output_directory / f"DEBUG_mask_processed.png",
+                closed_mask_filename=page_debug_directory / f"DEBUG_mask_closed.png",
+                processed_mask_filename=page_debug_directory / f"DEBUG_mask_processed.png",
             )
 
             # Use connected components to label the known blobs
@@ -337,12 +341,12 @@ if __name__ == "__main__":
 
             if DEBUG:
                 bbox_vis = draw_bounding_boxes(bounding_boxes, image)
-                cv2.imwrite(str(page_output_directory / f"DEBUG_bounding_boxes2.png"), bbox_vis)
+                cv2.imwrite(str(page_debug_directory / f"DEBUG_bounding_boxes2.png"), bbox_vis)
 
             df, line_count = save_bounding_boxes_with_transcription(
                 bounding_boxes=bounding_boxes,
                 transcription_lines=transcription_lines,
-                page_output_directory=page_output_directory,
+                output_directory=output_directory,
                 line_count=line_count,
                 spread_number=spread_number,
                 spread_side=page,
@@ -350,8 +354,5 @@ if __name__ == "__main__":
             )
             page_data.append(df)
 
-        dataset = pd.concat(page_data)
-        dataset["image_path"] = dataset["image_path"].map(
-            lambda p: str(Path(p).relative_to(output_directory))
-        )
-        dataset.to_csv(output_directory / f"dataset.csv")
+    dataset = pd.concat(page_data)
+    dataset.to_csv(output_directory / f"metadata.csv")
