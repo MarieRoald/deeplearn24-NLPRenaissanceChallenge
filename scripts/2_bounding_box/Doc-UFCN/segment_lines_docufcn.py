@@ -1,3 +1,4 @@
+import json
 import logging
 from pathlib import Path
 from typing import Literal
@@ -217,10 +218,13 @@ def save_bounding_boxes_with_transcription(
     transcription_lines: list[str] | None,
     page_output_directory: Path,
     line_count: int,
+    spread_number: int,
+    spread_side: Literal["left", "right"],
+    split: Literal["train", "test", "validation"],
 ) -> tuple[pd.DataFrame, int]:
     rows = []
 
-    for marker, (x, y, w, h) in bounding_boxes.items():
+    for _marker, (x, y, w, h) in bounding_boxes.items():
         if transcription_lines is None:
             transcription = None
         else:
@@ -246,11 +250,13 @@ def save_bounding_boxes_with_transcription(
         cropped_image = image[y : y + h, x : x + w]
 
         # save image as png
-        bb_path = page_output_directory / f"bounding_box_marker_{marker:03d}.png"
+        bb_path = page_output_directory / f"bounding_box_{line_count:03d}.png"
         cv2.imwrite(str(bb_path), cropped_image)
 
         row = {
-            "page_number": page_number,
+            "spread_number": spread_number,
+            "spread_side": spread_side,
+            "split": split,
             "line_number": line_count,
             "transcription": transcription,
             "image_path": str(bb_path),
@@ -263,22 +269,24 @@ def save_bounding_boxes_with_transcription(
 
         line_count += 1
 
-    df = pd.DataFrame(rows)
-    logger.debug("Transcription info\n%s", df)
-    df.to_csv(page_output_directory / "bounding_boxes.csv")
-    return df, line_count
+    logger.debug("Transcription info\n%s", rows)
+    return pd.DataFrame(rows), line_count
 
 
 if __name__ == "__main__":
-    input_directory = Path("data/1_preprocessing/extracted_pages/processed_page_images")
-
-    output_directory = Path("data/2_bounding_box/Doc-UFCN_processed")
-    output_directory.mkdir(exist_ok=True, parents=True)
     setup_logging(log_dir=Path("logs/2_bounding_box/Doc-UFCN"), log_level=logging.DEBUG)
 
-    image_path = Path(
-        "data/1_preprocessing/extracted_pages/processed_page_images/image-002-005_left.png"
-    )
+    input_directory = Path("data/1_preprocessing/extracted_pages/processed_page_images")
+    output_directory = Path("data/2_bounding_box/Doc-UFCN_processed")
+    output_directory.mkdir(exist_ok=True, parents=True)
+
+    with Path("data/0_input/data_splits.json").open("r") as f:
+        split = json.load(f)
+    split_type_map = {
+        spread_number: split_type
+        for split_type, spread_numbers in split.items()
+        for spread_number in spread_numbers
+    }
 
     model_path, parameters = models.download_model("generic-historical-line", version="main")
 
@@ -287,22 +295,24 @@ if __name__ == "__main__":
 
     image_paths = sorted(input_directory.glob("*.png"), key=get_page_number)
 
-    for page_number in range(16):
-        if page_number < 13:
-            file_name = f"pdf_p{page_number+1:d}.txt"
+    page_data = []
+    for spread_number in range(1, 17):
+        if spread_number in split["test"]:
+            transcription_lines = None
+        else:
+            file_name = f"pdf_p{spread_number:d}.txt"
             transcription_path = Path("data/1_preprocessing/extracted_transcriptions") / file_name
             transcription_lines = transcription_path.read_text().splitlines()
-        else:
-            transcription_lines = None
+
         logger.debug("Transcription lines:\n%s", transcription_lines)
 
-        spread = ["left", "right"] if page_number else ["right"]
+        spread = ["left", "right"] if spread_number > 1 else ["right"]
         bounding_box_list = []
         line_count = 1
 
         for page in spread:
             image_path = (
-                input_directory / f"image-{page_number + 1:03d}-{page_number*5:03d}_{page}.png"
+                input_directory / f"image-{spread_number:03d}-{(spread_number-1)*5:03d}_{page}.png"
             )
             logger.info("Processing %s", image_path)
 
@@ -329,6 +339,19 @@ if __name__ == "__main__":
                 bbox_vis = draw_bounding_boxes(bounding_boxes, image)
                 cv2.imwrite(str(page_output_directory / f"DEBUG_bounding_boxes2.png"), bbox_vis)
 
-            _df, line_count = save_bounding_boxes_with_transcription(
-                bounding_boxes, transcription_lines, page_output_directory, line_count
+            df, line_count = save_bounding_boxes_with_transcription(
+                bounding_boxes=bounding_boxes,
+                transcription_lines=transcription_lines,
+                page_output_directory=page_output_directory,
+                line_count=line_count,
+                spread_number=spread_number,
+                spread_side=page,
+                split=split_type_map[spread_number],
             )
+            page_data.append(df)
+
+        dataset = pd.concat(page_data)
+        dataset["image_path"] = dataset["image_path"].map(
+            lambda p: str(Path(p).relative_to(output_directory))
+        )
+        dataset.to_csv(output_directory / f"dataset.csv")
