@@ -19,6 +19,7 @@ dependencies = [
     "pytesseract>=0.3.10",
     "tensorflow==2.15",
     "jiwer>=3.0.4",
+    "plotly>=5.22.0",
 ]
 requires-python = "<3.12,>=3.11"
 readme = "README.md"
