@@ -10,23 +10,53 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 
-def data_to_tesstrain(csv_path: Path, tesstrain_gt_path: Path):
-    """Copy the image files in the csv to the tesstrain data directory on the required format"""
-
-    df = pd.read_csv(csv_path)
+def get_df(csv_path: Path) -> pd.DataFrame:
+    """Load csv and filter out test split images if any"""
     logger.info(f"Reading {csv_path}")
-    for e in df.itertuples():
-        img = Path(e.image_path)
-        if not img.exists():
-            logger.error(f"{img} does not exist")
-            exit()
-        transcription = e.transcription
-        txt_file = tesstrain_gt_path / f"{img.stem}.gt.txt"
-        with txt_file.open("w+") as f:
-            f.write(transcription)
+    df = pd.read_csv(csv_path)
+    if "split" in df.columns:
+        df = df[df.split != "test"].copy()
+        df.index = range(len(df))
+    return df
 
-        img_file = tesstrain_gt_path / f"{img.stem}.png"
-        copy(src=img, dst=img_file)
+
+def data_to_tesstrain(df: pd.DataFrame, tesstrain_gt_path: Path) -> pd.DataFrame:
+    """Copy the image files in the DataFrame to the tesstrain data directory on the required format"""
+
+    logger.info("Copying images to testrain directory")
+    df["source_img_path"] = df.image_path.apply(Path)
+    if not all(df.source_img_path.apply(lambda x: x.exists())):
+        logger.error(f"Some source images do not exist")
+        exit()
+
+    df["text_file"] = df.source_img_path.apply(lambda img: tesstrain_gt_path / f"{img.stem}.gt.txt")
+    df["img_file"] = df.source_img_path.apply(lambda img: tesstrain_gt_path / f"{img.stem}.png")
+
+    for e in df.itertuples():
+        with e.text_file.open("w+") as f:
+            f.write(str(e.transcription))
+        copy(src=e.source_img_path, dst=e.img_file)
+
+    return df
+
+
+def create_list_files(df: pd.DataFrame, tesstrain_model_path: Path):
+    """Copy custom split to tesstrain directory"""
+    logger.info("Copying custom test and val split to tesstrain")
+
+    tesstrain_path = tesstrain_model_path.parent.parent
+    df["list_path"] = df.img_file.apply(
+        lambda x: f"{x.relative_to(tesstrain_path)}"[:-4] + ".lstmf"
+    )
+
+    train = df[df.split == "train"]
+    val = df[df.split == "val"]
+
+    with open(tesstrain_model_path / "list.train", "w+") as f:
+        f.write("\n".join(train.list_path))
+
+    with open(tesstrain_model_path / "list.eval", "w+") as f:
+        f.write("\n".join(val.list_path))
 
 
 if __name__ == "__main__":
@@ -43,6 +73,11 @@ if __name__ == "__main__":
         default=Path(__file__).parent / "tesstrain/",
     )
     parser.add_argument("--model_name", required=True)
+    parser.add_argument(
+        "--copy_splits",
+        action="store_true",
+        help="Will create list.train and list.eval files in tesstrain model directory",
+    )
     args = parser.parse_args()
 
     setup_logging()
@@ -50,4 +85,13 @@ if __name__ == "__main__":
     tesstrain_gt_path = args.tesstrain_directory / f"data/{args.model_name}-ground-truth"
     tesstrain_gt_path.mkdir(parents=True, exist_ok=True)
 
-    data_to_tesstrain(csv_path=args.data_csv, tesstrain_gt_path=tesstrain_gt_path)
+    df = get_df(args.data_csv)
+    df = data_to_tesstrain(df=df, tesstrain_gt_path=tesstrain_gt_path)
+
+    if args.copy_splits:
+        if "split" not in df.columns:
+            logger.error(f"--copy splits_flagged, but no split columns in csv-file")
+            exit()
+        tesstrain_model_path = args.tesstrain_directory / f"data/{args.model_name}"
+        tesstrain_model_path.mkdir(parents=True, exist_ok=True)
+        create_list_files(df=df, tesstrain_model_path=tesstrain_model_path)

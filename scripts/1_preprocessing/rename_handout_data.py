@@ -25,6 +25,7 @@ def rename_handout_data():
     df_val["split"] = ["val"] * len(df_val)
 
     df = pd.concat([df_test, df_train, df_val])
+    df.index = range(len(df))
     df["from_path"] = df.FILENAME.apply(lambda x: f"data/0_input/handout-created/outputTest/{x}")
 
     df["image_path"] = df.apply(
@@ -48,14 +49,17 @@ def rename_handout_data():
             logger.error(f"{img} does not exist")
             exit()
         copy(src=img, dst=e.image_path)
-        if not e.split == "test":
-            transcription = e.transcription
 
+        if e.split == "test":
+            continue
+        elif e.split == "train":
             txt_file = train_p / f"{Path(e.image_path).stem}.txt"
-            with txt_file.open("w+") as f:
-                f.write(transcription)
+        else:
+            txt_file = val_p / f"{Path(e.image_path).stem}.txt"
+        with txt_file.open("w+") as f:
+            f.write(e.transcription)
 
-    df[["image_path", "transcription"]].to_csv(
+    df[["image_path", "transcription", "split"]].to_csv(
         "data/0_input/handout-modified/handout.csv", index=False
     )
     df[df.split == "train"][["image_path", "transcription"]].to_csv(
