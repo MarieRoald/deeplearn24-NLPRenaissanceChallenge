@@ -66,7 +66,8 @@ def straighten_image(image: Image.Image) -> Image:
         Image: The straightened image.
     """
     angle = determine_skew(np.array(image.convert("L")))
-    return image.rotate(angle, expand=True, resample=Image.BICUBIC, fillcolor="white")
+    fillcolor = np.median(np.array(image), axis=(0, 1)).astype(np.uint8)
+    return image.rotate(angle, expand=True, resample=Image.BICUBIC, fillcolor=tuple(fillcolor))
 
 
 def extract_pages(
