@@ -6,6 +6,7 @@ authors = [
     {name = "", email = ""},
 ]
 dependencies = [
+    "typing-extensions>=4.12.2",
 ]
 requires-python = "<3.12,>=3.11"
 readme = "README.md"
@@ -31,10 +32,13 @@ handout_model = [
     "tensorflow==2.15"
 ]
 trocr = [
-    "datasets>=2.13.2",
+    "datasets>=2.20.0",
     "mlflow>=2.14.2",
-    "transformers>=4.42.4",
+    "transformers[torch]>=4.42.4",
     "torch>=2.3.1",
+    "jiwer>=3.0.4",
+    "evaluate>=0.4.2",
+    "setuptools>=71.1.0",
 ]
 
 [build-system]
@@ -55,4 +59,4 @@ target-version = "py311"
 line-length = 100
 
 [tool.ruff.lint]
-select = ["I"]
+select = ["I", "TCH"]
