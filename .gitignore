@@ -172,3 +172,4 @@ kladd.ipynb
 models/tesseract/*/*
 data/0_input/handout-modified/test
 data/0_input/handout-modified/train
+data/0_input/handout-modified/val
