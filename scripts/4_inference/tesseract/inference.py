@@ -22,7 +22,7 @@ def tesseract_transcribe(model_name: str, input_csv: Path, output_csv: Path):
         pytesseract.image_to_string(Image.open(e.image_path), lang=model_name)
         for e in tqdm(df.itertuples(), total=len(df))
     ]
-    df["predictions"] = predictions
+    df["prediction"] = predictions
     output_csv.parent.mkdir(exist_ok=True, parents=True)
     df.to_csv(output_csv, index=False)
 
