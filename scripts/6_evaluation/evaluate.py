@@ -13,7 +13,7 @@ logger.setLevel(logging.DEBUG)
 
 def evaluate(df: pd.DataFrame, output_dir: Path):
     df["transcription"] = df.transcription.apply(str)
-    df["prediction"] = df.prediction.apply(str)
+    df["prediction"] = df.prediction.apply(str).apply(str.strip)  # move to post_processing?
 
     df["correct_prediction"] = df.transcription == df.prediction
     df["wer"] = wer(reference=df.transcription.to_list(), hypothesis=df.prediction.to_list())
