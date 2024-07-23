@@ -4,6 +4,7 @@ services:
     image: ghcr.io/mlflow/mlflow:v2.14.2
     ports:
       - 5400:5400
-    command: mlflow ui --port 5400 --backend-store-uri sqlite:///data/mlflow.db --default-artifact-root /data --artifacts-destination /data --host 0.0.0.0
+    command: mlflow ui --port 5400 --backend-store-uri sqlite:///data/mlflow.db --artifacts-destination /mlartifacts --serve-artifacts --host 0.0.0.0
     volumes:
-      - ./data/mlflow/:/data
+      - ./data/mlflow/data:/data
+      - ./data/mlflow/mlartifacts:/mlartifacts
