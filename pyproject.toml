@@ -18,6 +18,7 @@ dependencies = [
     "mlflow>=2.14.2",
     "pytesseract>=0.3.10",
     "tensorflow==2.15",
+    "jiwer>=3.0.4",
 ]
 requires-python = "<3.12,>=3.11"
 readme = "README.md"
