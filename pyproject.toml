@@ -7,7 +7,7 @@ authors = [
 ]
 dependencies = [
 ]
-requires-python = ">=3.11"
+requires-python = "<3.12,>=3.11"
 readme = "README.md"
 license = {text = "MIT"}
 
@@ -22,6 +22,13 @@ doc_ufcn = [
     "tqdm>=4.66.4",
     "jupyter>=1.0.0",
     "python-docx>=1.1.2",
+    "mlflow>=2.14.2",
+    "pytesseract>=0.3.10",
+    "jiwer>=3.0.4",
+    "plotly>=5.22.0",
+]
+handout_model = [
+    "tensorflow==2.15"
 ]
 trocr = [
     "datasets>=2.13.2",
