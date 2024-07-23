@@ -21,7 +21,7 @@ def keras_transcribe(model: Path, input_csv: Path, output_csv: Path):
         output_csv.parent.mkdir(exist_ok=True, parents=True)
         df.to_csv(output_csv, index=False)
     else:
-        logger.error("oops, not implemented")
+        logger.error("Inference not implemented for other models than example model from handout")
         exit()
 
 
