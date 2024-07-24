@@ -14,17 +14,17 @@ from transformers import (
 )
 
 mlflow.set_tracking_uri("http://cicero.nb.no:5400")
-mlflow.set_experiment("TrOCR large-spanish doc-ufcn")
+mlflow.set_experiment("TrOCR large-spanish CRAFT")
 
 train_set = datasets.load_dataset(
     "imagefolder",
-    data_dir="/hdd/home/mariero/deeplearn24/data/2_bounding_box/Doc-UFCN_processed",
+    data_dir="/hdd/home/mariero/deeplearn24/data/0_input/handout-huggingface",
     split="train",
 )
 
 validation_set = datasets.load_dataset(
     "imagefolder",
-    data_dir="/hdd/home/mariero/deeplearn24/data/2_bounding_box/Doc-UFCN_processed",
+    data_dir="/hdd/home/mariero/deeplearn24/data/0_input/handout-huggingface",
     split="validation",
 )
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
