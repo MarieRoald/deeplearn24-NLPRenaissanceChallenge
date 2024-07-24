@@ -1,4 +1,5 @@
 from functools import partial
+from pathlib import Path
 
 import datasets
 import mlflow
@@ -55,34 +56,35 @@ model.generation_config.no_repeat_ngram_size = 3
 model.generation_config.length_penalty = 2.0
 model.generation_config.num_beams = 4
 
-# Setup trainer
-training_args = Seq2SeqTrainingArguments(
-    predict_with_generate=True,
-    eval_strategy="steps",
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    fp16=False,
-    output_dir="./",
-    logging_steps=2,
-    save_steps=100,
-    eval_steps=5,
-    remove_unused_columns=False,
-    max_steps=1000,
-    learning_rate=1e-5,
-)
-
-trainer = Seq2SeqTrainer(
-    model=model,
-    tokenizer=processor.feature_extractor,
-    args=training_args,
-    compute_metrics=partial(compute_metrics, processor=processor),
-    train_dataset=processed_train_set,
-    eval_dataset=processed_validation_set,
-    data_collator=default_data_collator,
-    callbacks=[ImageSaverCallback(processor, validation_set, processed_validation_set, device)],
-)
-
 with mlflow.start_run() as run:
+    # Setup trainer
+    checkpoint_dir = Path(f"./checkpoints/{run.info.run_name}/")
+    checkpoint_dir.mkdir(parents=True, exist_ok=True)
+    training_args = Seq2SeqTrainingArguments(
+        predict_with_generate=True,
+        eval_strategy="steps",
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
+        fp16=False,
+        output_dir=checkpoint_dir,
+        logging_steps=2,
+        save_steps=100,
+        eval_steps=5,
+        remove_unused_columns=False,
+        max_steps=1000,
+        learning_rate=1e-5,
+    )
+
+    trainer = Seq2SeqTrainer(
+        model=model,
+        tokenizer=processor.feature_extractor,
+        args=training_args,
+        compute_metrics=partial(compute_metrics, processor=processor),
+        train_dataset=processed_train_set,
+        eval_dataset=processed_validation_set,
+        data_collator=default_data_collator,
+        callbacks=[ImageSaverCallback(processor, validation_set, processed_validation_set, device)],
+    )
     trainer.train()
 
 
