@@ -1,6 +1,6 @@
 {
     "_comment": "Validation split is randomly generated using random.org",
-    "validate": [6, 11],
+    "val": [6, 11],
     "train": [1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 13],
     "test": [14, 15, 16]
 }

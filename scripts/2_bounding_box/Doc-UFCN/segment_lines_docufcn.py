@@ -220,7 +220,7 @@ def save_bounding_boxes_with_transcription(
     line_count: int,
     spread_number: int,
     spread_side: Literal["left", "right"],
-    split: Literal["train", "test", "validate"],
+    split: Literal["train", "test", "val"],
 ) -> tuple[pd.DataFrame, int]:
     rows = []
 
