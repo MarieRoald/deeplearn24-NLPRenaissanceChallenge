@@ -1,0 +1,1565 @@
+file_name,spread_number,spread_side,split,line_number,transcription,x,y,w,h,prediction
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_001.png,1,right,train,1,DEDICATORIA,76,78,338,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_002.png,1,right,train,2,EN LOS CONSEJOS,32,113,370,49,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_003.png,1,right,train,3,"que dexo a sus hijo, e hija",27,169,406,42,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_004.png,1,right,train,4,mayores una gran Señora,29,212,402,39,"de- de-
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_005.png,1,right,train,5,destos Reynos de España,27,252,408,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_006.png,1,right,train,6,que por justos respec-,44,294,371,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_007.png,1,right,train,7,tos se ocultó su,49,334,277,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_008.png,1,right,train,8,nombre.,69,380,214,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_009.png,1,right,train,9,SIENDO (hijos,202,438,218,42,"- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_010.png,1,right,train,10,"mios) tan cierto, ",216,471,202,38,"de-
+- ao
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_011.png,1,right,train,11,que el virtuoso ser,180,501,238,37,"de-
+de- do- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_012.png,1,right,train,12,es el que por obli-,218,530,202,36,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_013.png,1,right,train,13,gacion han de dar,223,558,199,39,"de-
+-o
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_014.png,1,right,train,14,a los hijos sus Pa-,60,588,361,38,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_015.png,1,right,train,15,"dres, y por el que principalmente",40,618,382,40,"de- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_016.png,1,right,train,16,ellos les pueden quedar obligados;,39,648,387,41,"de- de- de- de-
+de- dos de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_017.png,1,right,train,17,desseando yo cumplir en esto la par,38,677,374,39,"de- d de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_018.png,1,right,train,18,"te que me toca, y executaros en la",40,711,388,35,"de- de- d de- -
+d -o
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_1_right_019.png,1,right,train,19,"vuestra, no aviendose servido nues-",42,740,389,34,"de-
+de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_001.png,2,left,train,1,tro Señor por sus rectisimos y ocul,112,54,401,43,"do- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_002.png,2,left,train,2,"tos juyzios de darme tiempo, para ",116,79,397,49,"de- -
+de- de- d de- de- d do-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_003.png,2,left,train,3,que en vuestra educacion lo mani,114,109,399,46,"de- dio
+de- de- de- d de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_004.png,2,left,train,4,"festasse, pues me hallo tantos meses ",116,137,396,47,"de- - du- o-
+de-
+- aui miu
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_005.png,2,left,train,5,"ha rendida en esta cama, a una en",120,167,393,46,"d de- d de- de-
+d
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_006.png,2,left,train,6,"fermedad tal, que desde su princi",118,196,395,46,"á
+áQ
+
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_007.png,2,left,train,7,"pio me amenaza con la muerte, y ",117,228,396,72,"do- de- de-
+de-
+d-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_008.png,2,left,train,8,"vuestra orfandad en tiernos años, ",118,285,395,47,"d- de-
+d - o
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_009.png,2,left,train,9,asi pues como os di al mundo con ,119,318,394,44,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_010.png,2,left,train,10,"dolores, con los de tan penosos ac-",120,346,393,45,"de- - de-
+
+de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_011.png,2,left,train,11,"cidentes, os procuro encaminar ",121,373,392,47,"de- dos de- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_012.png,2,left,train,12,"ahora a Dios, y que renazcays de mi ",123,401,389,48,"de- d do- de- d- d de-
+de- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_013.png,2,left,train,13,"para él, por medio de la virtud, a ",120,434,393,42,"du- d de- de- -
+
+-io
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_014.png,2,left,train,14,que os exorto con estos documen,119,463,391,42,"- do- d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_015.png,2,left,train,15,tos (que he recogido con el desve-,121,490,387,43,"d de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_016.png,2,left,train,16,lo posible) juzgando es la mas esti-,121,520,388,43,"d de-
+de-
+- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_017.png,2,left,train,17,mable herencia que puedo dexaros ,121,552,388,40,"de-
+Q- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_018.png,2,left,train,18,en prendas del entrañable amor ,119,578,393,46,"de-
+d de- - - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_019.png,2,left,train,19,"que os tengo, por este, y en primer ",119,606,393,46,"de- - de- d
+de- de-
+d d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_020.png,2,left,train,20,"lugar por el que deveys a Dios, os ",119,634,393,48,"dos -
+du- d- de- de- dos de- d
+de- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_021.png,2,left,train,21,"pido, y encargo, que me libreys la ",119,663,393,48,"-
+de- d d de- de- -
+
+de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_022.png,2,left,train,22,"paga en el puntual exercicio dellos, ",118,695,394,42,"do
+de- de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_left_023.png,2,left,train,23,y en premio os prometo (con mi ,115,725,398,42,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_024.png,2,right,train,24,"bendicion, que desde aquí os doy)",33,67,371,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_025.png,2,right,train,25,de parte de Dios los doce mas ex,34,93,402,34,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_026.png,2,right,train,26,celentes que un Maestro de espiri-,34,123,404,34,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_027.png,2,right,train,27,"tu largamente escribe, y son en su-",35,152,400,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_028.png,2,right,train,28,ma: que tendra su divina Magestad ,35,182,377,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_029.png,2,right,train,29,"providencia particular de vosotros, ",35,215,378,28,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_030.png,2,right,train,30,y os concedera la gracia del Espíri-,36,243,378,30,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_031.png,2,right,train,31,"tu Santo, sus consolaciones, y lum-",36,274,385,30,"de- - de- - - s
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_032.png,2,right,train,32,"bre sobrenatural, la alegría de la ",39,303,384,29,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_033.png,2,right,train,33,"buena conciencia, la esperanza en la ",39,329,377,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_034.png,2,right,train,34,"divina misericordia, la verdadera li",40,359,382,31,"de- - d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_035.png,2,right,train,35,"bertad, y paz interior, oydo grato a ",41,387,363,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_036.png,2,right,train,36,"vuestras oraciones, su asistencia, y ",42,418,382,31,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_037.png,2,right,train,37,"favor en los trabajos, y benciciones ",41,446,384,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_038.png,2,right,train,38,que en la Santa Escritura promete ,42,475,385,31,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_039.png,2,right,train,39,"a los virtuosos de todo lo temporal, ",43,505,382,31,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_040.png,2,right,train,40,"y ultimamente, glorioso y alegre ",44,534,381,29,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_041.png,2,right,train,41,"fin, que cada cosa destas por si pu-",44,564,383,28,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_042.png,2,right,train,42,diera sernos incentivo para seguir ,45,593,384,30,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_043.png,2,right,train,43,"el camino de la virtud, aunque no ",46,622,383,31,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_044.png,2,right,train,44,nos tuviera Dios de antemano o-,46,652,386,30,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_045.png,2,right,train,45,"bligados a ella, por ser el que es, y ",47,677,382,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_046.png,2,right,train,46,por los inestimables beneficios ge,48,705,377,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_2_right_047.png,2,right,train,47,"nerales de la creacion, conserva-",48,732,384,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_001.png,3,left,train,1,"predeterminacion, a q se añaden en ca-",102,64,378,38,"-
+áúá d de- d d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_002.png,3,left,train,2,da uno los particulares suyos. Aqui ,101,93,391,38,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_003.png,3,left,train,3,os hago memoria de la calidad que ,102,123,393,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_004.png,3,left,train,4,"os dio, que se funda en la excelencia ",102,153,389,36,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_005.png,3,left,train,5,"de la virtud, origen de que se deriva ",100,181,388,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_006.png,3,left,train,6,"qualquiera verdadera nobleza, y ",100,210,389,38,"de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_007.png,3,left,train,7,"pues es deuda, y efecto de la virtud, ",100,240,388,37,"de- de- de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_008.png,3,left,train,8,"sed tales como ella os obliga a ser, ",100,269,388,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_009.png,3,left,train,9,"mirad que no solo es necesaria, sino ",100,298,389,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_010.png,3,left,train,10,"forzosa en los nobles la virtud, y ",100,327,389,37,"de- dos dos - d de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_011.png,3,left,train,11,"que el que la busca, es el que se ",98,355,391,39,"de- de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_012.png,3,left,train,12,"muestra de más generoso, y noble ",99,384,390,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_013.png,3,left,train,13,"animo, y como dixo Bruno Sigui-",100,413,388,38,"de- -
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_014.png,3,left,train,14,"no, puede ser mas noble el esclavo ",99,443,388,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_015.png,3,left,train,15,"que su señor, pues consiste la noble-",97,472,388,38,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_016.png,3,left,train,16,"za mayor en mas virtud, y nace de-",96,501,392,38,"d de- du- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_017.png,3,left,train,17,"lla la nobleza, conservase en ella, ",95,531,392,37,"- de- de- dos de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_018.png,3,left,train,18,"queda cadaver si le falta, por ser el ",96,561,391,37,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_019.png,3,left,train,19,"alma, y vida de la nobleza la virtud, ",96,588,390,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_020.png,3,left,train,20,ella tiene mayor fuerza que todas ,98,617,386,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_021.png,3,left,train,21,"las armas, y tan grande claridad, que ",98,642,385,44,"d- de- dos de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_022.png,3,left,train,22,"aunque este en un lugar obscuro, a si ",98,674,386,40,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_023.png,3,left,train,23,misma se haze luz como la más rica ,98,703,385,41,"d tuio d
+-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_left_024.png,3,left,train,24,"de las piedras, q es el Carbunco, sola",96,736,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_025.png,3,right,train,25,ella es suficiente premio del virtuo-,19,58,386,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_026.png,3,right,train,26,"so: es tan noble, que ni puede usar ",19,87,387,36,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_027.png,3,right,train,27,"mal de nada, ni nadie mal della, y el ",19,115,387,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_028.png,3,right,train,28,"sujeto propio, y asiento suyo, es el ",19,143,388,38,"de- d d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_029.png,3,right,train,29,"más excelente, pues en el hombre ",19,173,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_030.png,3,right,train,30,"es el corazon, y en el mundo los ",18,205,387,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_031.png,3,right,train,31,"Principes, y Reyes; esta sola es la ",18,232,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_032.png,3,right,train,32,que quita el sentimiento de las es-,17,262,386,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_033.png,3,right,train,33,"pinas de la vida, y contra ella no ",18,292,386,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_034.png,3,right,train,34,tienen las calamidades más fuerza ,17,321,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_035.png,3,right,train,35,que la niebla contra el Sol. Socra-,17,350,384,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_036.png,3,right,train,36,"tes preguntado. Por Iorgias, si te",17,379,385,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_037.png,3,right,train,37,"nía por dichoso al Rey de Persia, ",17,408,385,37,"dos de- d- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_038.png,3,right,train,38,respondio: No puedo juzgar de es-,17,434,386,41,"de- - de- - d- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_039.png,3,right,train,39,"so, sin saber quanta virtud tiene. Y ",16,465,387,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_040.png,3,right,train,40,conforma con esto lo que Seneca ,17,494,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_041.png,3,right,train,41,después de largos discursos conclu-,16,525,383,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_042.png,3,right,train,42,"ye, de que en ella consiste la bien",17,554,384,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_043.png,3,right,train,43,"aventurada, y mas feliz vida, a ",17,583,387,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_044.png,3,right,train,44,"que añade, que sola la virtud es el ",16,613,386,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_045.png,3,right,train,45,"propio bien del hombre, pues to-",16,642,388,38,"de- do-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_046.png,3,right,train,46,das las demas cosas humanas se con-,15,671,388,38,"d- de- de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_047.png,3,right,train,47,"sumen, y ella da muestras de natu",16,701,386,36,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_3_right_048.png,3,right,train,48,"raleza eterna, no aviendo otra co-",13,728,386,42,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_001.png,4,left,train,1,"sa de immortal, que a los mortales ",103,56,389,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_002.png,4,left,train,2,"toque. Para que conozcays pues, ",104,87,388,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_003.png,4,left,train,3,que es la virtud de que aqui os ha-,103,115,387,38,"du- de- de- d du- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_004.png,4,left,train,4,blo en general (remitiendo para ,103,145,391,38,"do- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_005.png,4,left,train,5,adelante lo particular) dize Aristo-,105,174,389,38,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_006.png,4,left,train,6,"teles, que es un habito para elegir ",105,204,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_007.png,4,left,train,7,"lo recto, el qual haze bueno al hom-",105,234,389,37,"d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_008.png,4,left,train,8,"bre y sus obras, y segun la difinen ",105,263,391,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_009.png,4,left,train,9,"San Agustin, y Santo Thomas; es ",107,292,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_010.png,4,left,train,10,"una qualidad del alma, con que se ",108,321,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_011.png,4,left,train,11,"vive rectamente, y la que yo creo ",108,351,388,37,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_012.png,4,left,train,12,"os condederá nuestro Señor, obli-",108,380,388,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_013.png,4,left,train,13,"gándole con pidírsela, y disponer-",110,408,384,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_014.png,4,left,train,14,os de vuestra parte; assi sea como ,109,438,387,38,"-
+eo -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_015.png,4,left,train,15,"yo desseo, y que os de larga ",141,467,330,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_016.png,4,left,train,16,vida para grangear ,198,495,233,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_017.png,4,left,train,17,en ella mucha ,231,527,150,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_left_018.png,4,left,train,18,gloria.,273,558,70,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_019.png,4,right,train,19,Consejos que dexó la dicha ,31,89,386,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_020.png,4,right,train,20,Señora a su hijo ,92,131,314,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_021.png,4,right,train,21,Primogénito.,136,171,175,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_022.png,4,right,train,22,No de los enga-,142,237,268,36,"de- d- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_023.png,4,right,train,23,ños injustamente ,208,268,204,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_024.png,4,right,train,24,más recibidos en ,209,297,203,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_025.png,4,right,train,25,"el mundo, es creer, ",168,325,244,37,"-
+d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_026.png,4,right,train,26,que los bienes na,172,354,238,37,"d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_027.png,4,right,train,27,"turales, en que al-",38,383,373,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_028.png,4,right,train,28,gunos por privilegio nacen here-,28,413,382,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_029.png,4,right,train,29,"dados, son para vivir mas licencio-",26,443,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_030.png,4,right,train,30,"samente con solo estima propia, y ",26,472,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_031.png,4,right,train,31,"desprecio de los otros, con super-",26,501,383,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_032.png,4,right,train,32,"fluos regalos, y soberania tiranica, ",26,532,386,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_033.png,4,right,train,33,entregandose de tal suerte a todo ,27,559,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_034.png,4,right,train,34,"genero de vicios, que estos tengan ",27,589,385,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_035.png,4,right,train,35,"campal guerra, sobre ser cada uno ",26,618,386,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_036.png,4,right,train,36,"el mayor. Y assi, si bien ay algunos ",25,646,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_037.png,4,right,train,37,"grandes Señores, que conocen ser ",26,677,386,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_038.png,4,right,train,38,"la verdadera calidad de la Virtud, y la ",25,707,387,35,"de- de- d de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_4_right_039.png,4,right,train,39,"mayor, no la heredada, sino la pro-",26,735,388,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_001.png,5,left,train,1,pia (que procuran) pero son mas,98,64,386,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_002.png,5,left,train,2, los que dexandose llevar de incli-,100,93,379,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_003.png,5,left,train,3,"naciones depravadas, y aduladores ",100,124,385,38,"de- de- d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_004.png,5,left,train,4,(peste de la Nobleza) usan mal de ,100,153,385,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_005.png,5,left,train,5,"la autoridad, y rentas con que se ",98,182,388,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_006.png,5,left,train,6,"hallan, tomando por armas contra ",99,210,386,39,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_007.png,5,left,train,7,"Dios, las mercedes que del recibie",98,242,384,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_008.png,5,left,train,8,"ron, y desestimandose, con lo que ",98,271,388,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_009.png,5,left,train,9,"piensan se engrandecen, pues en to",98,300,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_010.png,5,left,train,10,das las cosas quieren bondad sino ,97,328,388,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_011.png,5,left,train,11,"en si mismos, como dixo San Agus-",100,358,385,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_012.png,5,left,train,12,tin: y siendo de los que David dize ,99,387,388,37,"de- de- d- dos de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_013.png,5,left,train,13,no conocieron la honra en que fue-,100,416,384,37,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_014.png,5,left,train,14,"ron criados, y la pusieron en lo que ",100,444,387,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_015.png,5,left,train,15,"mas los abatio, pues consistiendo la ",100,473,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_016.png,5,left,train,16,"verdadera en servir, y agradar a ",100,501,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_017.png,5,left,train,17,"Dios, vemos q dan en hazerse estos ",100,530,387,41,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_018.png,5,left,train,18,"sectarios, y cabezas mostruosas de ",100,560,387,39,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_019.png,5,left,train,19,"vicios, professando unos la valen",100,587,385,41,"de- de- - d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_020.png,5,left,train,20,tia (en ellos falsa y civil) otros ser ,101,618,385,40,"d de- - de- d-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_021.png,5,left,train,21,"graciosos, hurtando el oficio a los ",102,647,385,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_022.png,5,left,train,22,"truhanes, otros sabios muy por lo ",102,676,386,40,"de- -
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_023.png,5,left,train,23,"inchado, unos enfadados de todos, ",104,704,382,42,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_left_024.png,5,left,train,24,"y descorteses, Poetas con agenos",104,732,384,43,"de-
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_025.png,5,right,train,25,"versos: los locos, y los que mas lo ",23,63,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_026.png,5,right,train,26,"son, enamorados< y llega la desdicha ",23,91,386,36,"de- - d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_027.png,5,right,train,27,de nuestros tiempos a ver baylar ,23,120,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_028.png,5,right,train,28,"como mugeres, nietos de los que ",24,150,385,36,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_029.png,5,right,train,29,truxeron casi toda su vida el peso ,25,180,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_030.png,5,right,train,30,"de los Arneses sobre si, y las armas ",23,210,387,35,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_031.png,5,right,train,31,"en la mano, con que les ganaron ",23,237,387,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_032.png,5,right,train,32,lo que tan indignamente posseen. ,23,268,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_033.png,5,right,train,33,"Tampoco faltan otros, que hazen ",24,296,390,37,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_034.png,5,right,train,34,gracia de exceder en los brindis de ,25,327,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_035.png,5,right,train,35,"los combites, y de no jugar limpio, ",25,356,387,37,"d- de- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_036.png,5,right,train,36,ni tratar verdad< y gala de vivir mu,25,385,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_037.png,5,right,train,37,chos años en mal estado (descuydo ,25,414,391,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_038.png,5,right,train,38,digno de ser llorado en España) por ,26,444,396,36,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_039.png,5,right,train,39,"la educación de sus Nobles, y el re",26,472,378,36,"d de- - de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_040.png,5,right,train,40,presentarle yo en estas lastimosas ,29,500,387,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_041.png,5,right,train,41,"verdades, es como pintaros aquí la ",29,529,387,37,"de- d de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_042.png,5,right,train,42,"fealdad de los vicios, para que con ",30,557,386,40,"de- de- de- du-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_043.png,5,right,train,43,horror della les cobreys el aborre,30,584,382,42,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_044.png,5,right,train,44,"cimiento que desseo, creyendo jun-",31,616,384,40,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_045.png,5,right,train,45,"tamente, que la vida del Señor gra-",31,645,384,40,"de- de-
+de- de- d d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_046.png,5,right,train,46,nde (no contentandose con huyr de,30,675,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_047.png,5,right,train,47,llos) ha de ser un continuo exerci-,30,705,386,38,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_5_right_048.png,5,right,train,48,"cio de virtudes, porque la magna-",34,732,382,41,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_001.png,6,left,val,1,"nima fortaleza, que es la propia, y ",92,61,358,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_002.png,6,left,val,2,"connatural de los Ilustres, procede ",93,90,383,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_003.png,6,left,val,3,"de corazon grande, y este debe des",92,119,382,37,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_004.png,6,left,val,4,"preciar la bxeza mayor, que es el",92,148,388,37,"de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_005.png,6,left,val,5,abatirse a los vicios: segun Aristo-,92,179,387,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_006.png,6,left,val,6,"teles, y Ciceron, consiste en tres co-",93,208,386,36,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_007.png,6,left,val,7,"sas, desestimar todas las exteriores, ",92,237,384,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_008.png,6,left,val,8,"sufrir mucho por la Virtud, y por ",91,266,385,36,"de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_009.png,6,left,val,9,ella acometer arduas y grandes em-,90,295,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_010.png,6,left,val,10,presas en beneficio comun: y la for-,90,326,380,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_011.png,6,left,val,11,"taleza Christiana, es sufrir, y hazer ",90,355,386,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_012.png,6,left,val,12,"mucho por Dios, y su gloria, y bien ",91,382,386,38,"de- de- de- d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_013.png,6,left,val,13,"de todos, venciendose uno a si mis-",91,411,386,38,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_014.png,6,left,val,14,"mo, triunfo a que esta vinculada la ",91,440,390,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_015.png,6,left,val,15,verdadera grandeza. Considerad ,91,471,390,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_016.png,6,left,val,16,"pues, que la honra, y hazienda os la ",91,499,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_017.png,6,left,val,17,"dio Dios para repartirla, y que ",89,529,390,36,"do- - - -
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_018.png,6,left,val,18,"aveys nacido tanto para los demas, ",90,556,389,38,"de- de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_019.png,6,left,val,19,como para vos mismo: assi lo dixo ,90,586,389,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_020.png,6,left,val,20,"Ciceron del Noble, y creed, que ",90,615,388,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_021.png,6,left,val,21,son talentos de que les aveys de dar ,90,641,386,42,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_022.png,6,left,val,22,"cuenta muy estrecha, y carga con ",91,671,387,41,"d d
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_023.png,6,left,val,23,que os ha obligado a ser defensor,89,702,390,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_left_024.png,6,left,val,24,"es de su Fe y Religion, accerrimo per-",88,731,391,41,"de- d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_025.png,6,right,val,25,"seguidor de los vicios en vos, y en ",25,57,387,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_026.png,6,right,val,26,quantos corrieren por vuestra cuen,25,88,385,38,"de- de- de- de- -
+de- d de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_027.png,6,right,val,27,"ta, y exemplo de virtud a todos, ",25,116,385,39,"dos d de- de- d da-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_028.png,6,right,val,28,que según el que nos dieron los Ro,24,143,386,43,"do- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_029.png,6,right,val,29,"manos en aquellos dos tempos, pa-",24,174,398,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_030.png,6,right,val,30,"ra entrar en el de la honra, se ha de ",24,205,398,38,"de- dos
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_031.png,6,right,val,31,"passar primero por el de la virtud, ",24,234,388,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_032.png,6,right,val,32,y no os parezca que es mudaros de ,23,261,389,41,"de-
+de- d d
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_033.png,6,right,val,33,"profession obligaros a esto, y daros ",22,293,390,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_034.png,6,right,val,34,"la de Religioso, que seria hazer ",23,324,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_035.png,6,right,val,35,"agravio a la Nobleza, donde se ha ",23,348,409,42,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_036.png,6,right,val,36,"de hallar lo mejor de cada estado, ",23,380,394,39,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_037.png,6,right,val,37,"de los Prelados, el ser limosneros: ",23,403,409,47,"d d- - d d d- de-
+
+de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_038.png,6,right,val,38,"de los Religiosos, el zelo y devo-",23,433,410,46,"d dos dos de- d- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_039.png,6,right,val,39,"cion : de buenos Reyes, el exerci-",23,461,411,46,"do- á dos de- de- d d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_040.png,6,right,val,40,"cio de la justicia : de los Soldados, el ",24,490,410,47,"de- d- d- de- d
+
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_041.png,6,right,val,41,valor y alentado corazon : de los Pa-,24,519,411,47,"de- d de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_042.png,6,right,val,42,"dres de Familias, la piedad y amor ",24,549,409,46,"de- de- d d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_043.png,6,right,val,43,para con sus subditos : y aun de los ,24,578,412,47,"de-
+de- - o
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_044.png,6,right,val,44,"Artifices, el huyr la ociosidad, rin-",24,608,410,46,"d- - de-
+de-
+de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_045.png,6,right,val,45,"diendose al incansable trabajo, que ",24,637,411,48,
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_046.png,6,right,val,46,es obligacion poner en el beneficio ,23,667,411,46,"d de- de- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_047.png,6,right,val,47,"y buen gobierno d elos vassallos, el ",20,695,415,50,"de- de- de- d de- d
+
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_6_right_048.png,6,right,val,48,"qual pagan con las rentas, y sin esse",21,726,414,43,"de- - de- do-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_001.png,7,left,train,1,desuelo no podrian obtenerse jus-,94,58,390,37,"de- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_002.png,7,left,train,2,tamente. Si soys el que deveys a ,94,87,390,38,"de-
+de- áQ-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_003.png,7,left,train,3,"Dios, y a vuestra sangre, aveys de ",93,116,391,39,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_004.png,7,left,train,4,exercitar con su divina Magestad ,93,145,390,38,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_005.png,7,left,train,5,"las tres Virtudes Theologales, y de ",90,175,389,38,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_006.png,7,left,train,6,"las Cardinales, y Morales la Pruden-",91,206,383,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_007.png,7,left,train,7,"cia con todos, y en todos tiempos ",90,236,391,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_008.png,7,left,train,8,la Iusticia y equidad con vuestros ,90,265,383,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_009.png,7,left,train,9,"subditos, Fortaleza, Templanza, ",90,294,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_010.png,7,left,train,10,"Continencia en vos mismo, Obe-",90,323,391,36,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_011.png,7,left,train,11,"diencia con vuestro Rey, y Padre ",87,352,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_012.png,7,left,train,12,(que la de la Iglesia y Confessor en ,88,382,391,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_013.png,7,left,train,13,lo primero se incluye) Piedad con ,86,410,390,36,"d - d de- d-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_014.png,7,left,train,14,"todos, y mas con los pobres afligi",85,438,379,37,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_015.png,7,left,train,15,"dos y enfermos, Liberalidad, Pacien",84,466,393,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_016.png,7,left,train,16,"cia, y Afabilidad (grave en las oca-",84,498,393,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_017.png,7,left,train,17,siones que la pidieren) con vuestros ,84,527,392,35,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_018.png,7,left,train,18,"familiares, amigos, y hermanos: Re-",84,556,380,36,"de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_019.png,7,left,train,19,"signacion en los trabajos, y en las ",84,584,389,37,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_020.png,7,left,train,20,"prosperidades, animo agradecido a ",84,615,386,36,"de- d
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_021.png,7,left,train,21,"Dios, con desprecio dellas en quan-",82,644,386,37,"de- de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_022.png,7,left,train,22,to no sean importantes para bolver-,80,673,374,37,"de- - - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_023.png,7,left,train,23,selas a el. Esto es lo que pretendo ,80,703,384,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_left_024.png,7,left,train,24,"aquí individuaros, y enseñaros con",80,731,385,40,"-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_025.png,7,right,train,25,"amor, y obligacion de Madre, por ",21,62,386,37,"de- s de- - de- d -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_026.png,7,right,train,26,descuento de las que con el mas ,23,90,383,37,"de-
+d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_027.png,7,right,train,27,"propio suyo, que de los hijos, ",24,118,381,38,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_028.png,7,right,train,28,"los crian afeminados, y toleran ma",21,146,377,40,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_029.png,7,right,train,29,"las costumbres. Bien veo, que sien-",21,175,382,40,"-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_030.png,7,right,train,30,do tan varias las condiciones huma-,21,205,379,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_031.png,7,right,train,31,"nas, es muy dificil el dar reglas, y ",23,238,364,35,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_032.png,7,right,train,32,"preceptos a una, que la ajusten al ",23,262,387,42,"de- de-
+de- -io - d-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_033.png,7,right,train,33,trato de todas pero estas generales ,24,292,384,40,"de-
+d - -o
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_034.png,7,right,train,34,van sugetas al dominio de la prud-,25,324,385,37,"de- d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_035.png,7,right,train,35,"encia, que se ha de usar en la apli-",24,355,386,36,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_036.png,7,right,train,36,"cación, según los estados, tiempos, ",25,384,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_037.png,7,right,train,37,"lugares, y condiciones, porque a es-",25,414,387,35,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_038.png,7,right,train,38,"ta virtud, q es guia, y Maestra de to-",23,440,387,37,"de- de-
+de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_039.png,7,right,train,39,"das, Cicero la llamo justamete Arte ",23,468,388,39,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_040.png,7,right,train,40,"de la vida, y Aristoteles conocio sin ",23,498,389,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_041.png,7,right,train,41,"luz de Fe, q no la podia tener verda-",22,528,388,37,"do- - de- de-
+áh d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_042.png,7,right,train,42,"dera ninguno, que no fuesse Vir-",22,556,390,37,"áQ- d - d- d
+de- -
+
+-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_043.png,7,right,train,43,"tuoso, en cuya conformidad dize ",24,584,388,39,"de-
+de- d eo
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_044.png,7,right,train,44,"San Basilio, que ay dos prudencias, ",23,614,386,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_045.png,7,right,train,45,"una Christiana, y otra Gentilica, que ",25,645,386,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_046.png,7,right,train,46,"es la fagacidad, siempre encamina-",25,673,380,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_047.png,7,right,train,47,"da a engañar, y a la particular con-",23,703,382,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_7_right_048.png,7,right,train,48,"veniencia de la primera os preciad,",25,730,385,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_001.png,8,left,train,1,y usad en todas vuestras acciones ,91,57,381,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_002.png,8,left,train,2,"con sencillez recatada, para conocer ",92,86,382,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_003.png,8,left,train,3,"las maquinas de los maliciosos, y no ",94,115,380,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_004.png,8,left,train,4,ser engañado dellos. Espero pues ,94,144,380,37,"d de- de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_005.png,8,left,train,5,que llegareys con el exercicio des-,93,172,381,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_006.png,8,left,train,6,"tos consejos, a ser un exemplar de ",93,203,382,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_007.png,8,left,train,7,"buenos Cavalleros, y grandes Seño-",93,232,382,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_008.png,8,left,train,8,"res, imitando la Religion del Em-",92,263,382,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_009.png,8,left,train,9,"perador Constantino, el valor de ",93,291,383,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_010.png,8,left,train,10,"Carlo Magno, el menosprecio del ",94,320,383,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_011.png,8,left,train,11,mundo y sus grandezas de Carlos ,93,350,385,36,"de- de- - dos de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_012.png,8,left,train,12,"Quinto, la clemencia del Santo Rey ",93,378,383,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_013.png,8,left,train,13,"Luys, la templanza de Theodosio, ",92,408,384,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_014.png,8,left,train,14,"constancia del Rey Ingles Artus, ",92,437,384,35,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_015.png,8,left,train,15,justicia y verdad de Gofredo de ,93,465,386,37,"- d de- d- - d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_016.png,8,left,train,16,"Bullon, prudencia del Rey Fernan-",93,494,383,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_017.png,8,left,train,17,"do de Castilla, llamado el Santo, li-",94,525,383,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_018.png,8,left,train,18,"beralidad de Don Alonso el Sexto, ",94,554,384,35,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_019.png,8,left,train,19,"estudiosidad, y sabiduria del otro ",95,583,384,36,"de- d - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_020.png,8,left,train,20,"Don Alonso tan conocido por ella, ",95,612,384,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_021.png,8,left,train,21,que teniendo estos Principes el va-,94,641,382,36,"- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_022.png,8,left,train,22,lor y virtud natural del animo illus-,95,669,382,37,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_023.png,8,left,train,23,trado con el realce de nuestra Santa ,96,699,384,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_left_024.png,8,left,train,24,"Fe, no necessitamos de valernos de",96,728,385,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_025.png,8,right,train,25,"Numa, Anibal, Socrates, Cesar, Sci-",19,52,391,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_026.png,8,right,train,26,"pion, Caton, Trajano, Platon, Ale-",21,82,381,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_027.png,8,right,train,27,"xandro, Marco Aurelio, a quien se ",21,109,386,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_028.png,8,right,train,28,"atribuyen las mismas virtudes, por-",21,137,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_029.png,8,right,train,29,que faltandoles la excelencia mayor ,20,166,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_030.png,8,right,train,30,"de la verdadera Religion, no pu-",19,196,386,39,"d de- dos
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_031.png,8,right,train,31,dieron ser en ellos perfectas: y si a ,19,223,387,41,"de- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_032.png,8,right,train,32,todos no quadraredes (que es casi ,19,252,389,42,"de-
+áQ- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_033.png,8,right,train,33,imposible) contentaos con el agra-,19,286,385,36,"- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_034.png,8,right,train,34,"do de los que bien sienten, pues ",19,314,384,38,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_035.png,8,right,train,35,"aunque son los menos, es la mejor ",20,343,383,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_036.png,8,right,train,36,"parte, y principalmente con hazer ",19,373,384,39,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_037.png,8,right,train,37,lo que deveys.,20,404,153,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_038.png,8,right,train,38,"Para con Dios, y todo lo to-",23,458,370,41,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_039.png,8,right,train,39,cante a Religion,93,502,231,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_040.png,8,right,train,40,"PUES el mejor, y ",197,546,212,36,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_041.png,8,right,train,41,cierto principio de ,203,576,203,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_042.png,8,right,train,42,las cosas es Dios ,204,606,198,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_043.png,8,right,train,43,"guia, y fundamen",170,634,224,37,"d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_044.png,8,right,train,44,to de toda Virtud ,204,664,204,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_045.png,8,right,train,45,(y conocieron esto ,47,694,367,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_8_right_046.png,8,right,train,46,"aun los Gentiles, que Tito Livio",18,725,392,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_001.png,9,left,train,1,nos dexo escrito: al que sirve a Dios,93,52,389,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_002.png,9,left,train,2,todo le sucede bien con este prin,94,82,379,36,"- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_003.png,9,left,train,3,"cipio, y assi lo sintieron Platon, Ci-",94,110,391,39,"d- - do-
+
+d- -eo
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_004.png,9,left,train,4,"ceron, Socrates, y Aristoteles) Digo",94,139,390,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_005.png,9,left,train,5,"lo primero, que el titulo principal",94,166,390,42,"- de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_006.png,9,left,train,6,"de que os aveys de preciar, ha de",93,195,391,40,"d de- de- de- d-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_007.png,9,left,train,7,"ser el de Christiano, teniendo por",94,227,388,38,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_008.png,9,left,train,8,"asentado el faltar a todos, para con-",95,256,389,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_009.png,9,left,train,9,"servaros en merecer este, que reci-",95,286,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_010.png,9,left,train,10,"bistes de Dios tan de valde, y de que",95,316,387,36,"de- de- d- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_011.png,9,left,train,11,siempre os aveys de reconocer in-,97,345,385,37,"de- - de- dos -
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_012.png,9,left,train,12,digno. ,97,381,68,29,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_013.png,9,left,train,13,En las cosas tocantes a la autori-,130,403,351,37,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_014.png,9,left,train,14,"dad del Sumo Pontifice, e Inquisi-",96,434,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_015.png,9,left,train,15,"cion, asistid con particular gusto y",97,461,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_016.png,9,left,train,16,desuelo siempre que seays menes-,96,489,386,40,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_017.png,9,left,train,17,"ter, y hablad de lo uno, y lo otro",96,519,386,38,"de- de- d du- d d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_018.png,9,left,train,18,"con gran veneracion, sintiendo con",96,549,386,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_019.png,9,left,train,19,igual piedad. ,97,581,140,34,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_020.png,9,left,train,20,A las censuras de la Iglesia tened,128,607,356,38,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_021.png,9,left,train,21,"mucho respeto, y por todos los in-",95,638,387,36,"- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_022.png,9,left,train,22,tereses del mundo ni un instante os,96,666,390,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_023.png,9,left,train,23,"descuydeys en incurrir en ellas, ni",95,695,390,39,"de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_left_024.png,9,left,train,24,lo consintays a vuestros ministros y,94,723,391,41,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_025.png,9,right,train,25,"vasallos, como tampoco ser por cau-",15,59,374,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_026.png,9,right,train,26,sa vuestra nadie descomulgado.,17,86,335,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_027.png,9,right,train,27,Hablad muy bien siempre de to-,45,114,352,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_028.png,9,right,train,28,"das las Religiones, y favorecedlas ",16,142,383,39,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_029.png,9,right,train,29,"quanto os sea possible, y aun a qual-",16,171,374,41,"de- d- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_030.png,9,right,train,30,quiera Religioso y Sacerdote (que,16,201,383,41,"de- d -
+
+d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_031.png,9,right,train,31,"es la mayor dignidad, pues según",17,231,381,38,"d d de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_032.png,9,right,train,32,San Leon excede a la Real) venerad,17,259,393,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_033.png,9,right,train,33,"y respetad en toda ocasión, tenien-",16,290,383,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_034.png,9,right,train,34,do por buena suerte el ofrecerseos,16,320,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_035.png,9,right,train,35,"alguna de mostrarles rendimiento, ",17,349,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_036.png,9,right,train,36,y no lo rehuseys en publico (por lo,17,378,386,37,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_037.png,9,right,train,37,que deveys al buen exemplo) no,16,408,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_038.png,9,right,train,38,consintays jamas que dellos se ha-,17,438,386,35,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_039.png,9,right,train,39,"ble con nota, ni indecencia delan-",18,467,383,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_040.png,9,right,train,40,"te de vos, aunque sea en materia ",18,495,386,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_041.png,9,right,train,41,"leve y no os contenteys con esto, ",19,524,386,36,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_042.png,9,right,train,42,mas estad tan lexos de recibir es-,19,554,381,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_043.png,9,right,train,43,candalo por falta (aunque sea muy ,19,583,387,36,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_044.png,9,right,train,44,"publica) de cualquier Eclesiastico, ",20,612,385,37,"de- du- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_045.png,9,right,train,45,o Religioso< y hazed tanta estima,19,642,386,35,"d de- d- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_046.png,9,right,train,46,"de las Religiones, que si de alguna",19,672,388,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_047.png,9,right,train,47,de las aprobadas por la Iglesia fues,21,702,376,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_9_right_048.png,9,right,train,48,se possible ver apostatar a todos los,21,729,387,37,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_001.png,10,left,train,1,"De ella, quedando solo uno que la",87,60,390,37,"d- - d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_002.png,10,left,train,2,"observase, en el venereys, y estimeys",89,90,388,36,"- d - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_003.png,10,left,train,3,"su Religion con la fineza, que vien-",89,119,388,37,"de- - - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_004.png,10,left,train,4,dola muy poblada de Santos: y tan,89,148,388,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_005.png,10,left,train,5,capaz ha de ser vuestro corazon que ,91,177,386,37,"de- quio
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_006.png,10,left,train,6,"quepa en el, el amor de todas las",89,207,388,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_007.png,10,left,train,7,"Religiones, assi de las que comuni-",89,237,386,35,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_008.png,10,left,train,8,"cays, como de las que nunca aveys",90,267,387,35,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_009.png,10,left,train,9,"visto, que esse sera el mas desinte-",89,295,386,36,"de- du- de- d - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_010.png,10,left,train,10,"ressado, fundandole solo en ser co-",89,324,386,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_011.png,10,left,train,11,lumnas de la Iglesia. ,93,354,216,35,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_012.png,10,left,train,12,No tendreys por ningun caso,120,384,356,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_013.png,10,left,train,13,puntos de cortesias con los Obispos,88,412,389,38,"de- d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_014.png,10,left,train,14,"y Prelados, tomad dellos con esti-",87,441,388,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_015.png,10,left,train,15,"macion cualquiera, y dadles la qu",87,469,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_016.png,10,left,train,16,"quisieren, teniendo os por inferior",86,498,387,38,"de-
+o d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_017.png,10,left,train,17,del que mas lo es entre los Minis,85,527,382,40,"de-
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_018.png,10,left,train,18,tros de la Iglesia. ,88,558,186,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_019.png,10,left,train,19,"Con gente virtuosa, y dedidada a",117,587,358,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_020.png,10,left,train,20,"Dios nunca sustenteys diferencias,",85,615,388,38,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_021.png,10,left,train,21,"que saldreys mal dellas, porque los ",87,644,386,38,"du- de- de- de- - d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_022.png,10,left,train,22,ampara el mas poderoso patroci-,86,674,379,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_023.png,10,left,train,23,"nio, assistiendolos siempre su divina",87,703,385,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_left_024.png,10,left,train,24,Magestad.,85,732,114,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_025.png,10,right,train,25,"A los Religiosos, y Religiosas de",43,79,361,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_026.png,10,right,train,26,"los Conventos de vuestros Estados, ",17,104,382,38,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_027.png,10,right,train,27,dad toda la cortesia que a los de o-,16,134,387,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_028.png,10,right,train,28,"tras partes, y concededles las cosas",18,162,385,38,"- - d- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_029.png,10,right,train,29,de gracia factibles que os pidieren,18,195,386,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_030.png,10,right,train,30,"por criados, y vassallos, para que les",19,223,382,38,"de- d- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_031.png,10,right,train,31,queden bien afectos; y siempre vos,18,251,385,39,"de- de- d de- quio
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_032.png,10,right,train,32,"ganareys en su comunicación, bus-",21,281,383,36,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_033.png,10,right,train,33,cando para ello los mas aprovecha-,19,312,378,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_034.png,10,right,train,34,"dos, y Doctos: pero mirad mucho en",19,341,384,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_035.png,10,right,train,35,"no distraerlos, ni hazerlos faltar por",19,371,388,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_036.png,10,right,train,36,vuestro respecto a los de sus institu-,20,400,381,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_037.png,10,right,train,37,"tos, como tampoco a los Prelados",19,430,388,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_038.png,10,right,train,38,en lo mas conveniente a las Reli-,20,459,388,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_039.png,10,right,train,39,giones: No os mateys en governar-,20,488,389,34,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_040.png,10,right,train,40,"las, que ni lo entienden, ni es de-",21,518,378,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_041.png,10,right,train,41,cente introduzirse en esto de los secu-,21,547,384,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_042.png,10,right,train,42,"lares, aunque sean fundadores, pues",21,575,388,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_043.png,10,right,train,43,por serlo han de dessear mas la per-,20,604,392,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_044.png,10,right,train,44,"feccion de aquellas obras, que el ",23,634,391,34,"de- do- - - - d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_045.png,10,right,train,45,cumplimiento de sus antojos.,23,665,318,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_046.png,10,right,train,46,Parece que siendo de ordinario,21,692,391,35,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_047.png,10,right,train,47,en los lugares propios hijos de vas-,23,721,385,35,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_10_right_048.png,10,right,train,48,"sallos los Clerigos, tendra algun in",21,750,376,30,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_001.png,11,left,val,1,conveniente tratarlos con tanta fa-,101,81,386,38,"de- de- - de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_002.png,11,left,val,2,"miliaridad, pero en casos forzosos ",102,111,387,37,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_003.png,11,left,val,3,"sea con cortesia, y oyendolos alo-",102,138,385,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_004.png,11,left,val,4,"menos en pie, y haziendolos a",103,168,386,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_005.png,11,left,val,5,ellos cubrir; y aun con vuestros Ca-,102,195,379,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_006.png,11,left,val,6,"pellanes no useys del, vos ni dexeys",100,225,389,40,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_007.png,11,left,val,7,"de quitarles el sombrero, hazed que",100,256,387,39,"d de- de- do-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_008.png,11,left,val,8,"se cubran, y para no estar en pie, en",100,285,387,38,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_009.png,11,left,val,9,"vendiciendo la mesa, que se vayan.",102,315,377,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_010.png,11,left,val,10,Preciaos de cumplir con las obli-,131,345,356,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_011.png,11,left,val,11,gaciones devidas a vuestra Parro-,101,373,386,38,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_012.png,11,left,val,12,"chia donde quiera que esteys, no",99,404,388,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_013.png,11,left,val,13,"pretendiendo exempciones en esto, ",100,432,387,35,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_014.png,11,left,val,14,ni ceremonias nuevas para vuestra,99,460,388,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_015.png,11,left,val,15,"persona, sino admitiendo con hu-",99,490,386,36,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_016.png,11,left,val,16,mildad las que hallaredes introdu-,99,518,387,37,"- - de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_017.png,11,left,val,17,zidas en vuestro Estado con los an-,99,547,383,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_018.png,11,left,val,18,tecessores señores del. ,99,578,253,35,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_019.png,11,left,val,19,"Respetad mucho los Templos, es-",125,606,360,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_020.png,11,left,val,20,tando en ellos con gran compostura,97,636,388,37,"de- d - de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_021.png,11,left,val,21,"descubierto, y de rodillas (no con",96,665,390,36,"d- - de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_022.png,11,left,val,22,"una sola) quanto podays, meditando",98,693,390,38,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_023.png,11,left,val,23,con el corazon lo que pronuncian,98,722,387,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_left_024.png,11,left,val,24,"los labios, atentos los ojos a la Ma-",97,751,384,39,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_025.png,11,right,val,25,gestad que alli preside. No seays de,31,50,385,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_026.png,11,right,val,26,"los inquietos, y vagueadores q vio",29,77,400,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_027.png,11,right,val,27,el Propheta; ni permitireys os ha-,29,104,401,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_028.png,11,right,val,28,"blen en negocios, sino lo muy for-",29,134,381,37,"de- d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_029.png,11,right,val,29,"zoso, y si para esto algun criado hin-",29,163,385,38,"de- d de- de- d - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_030.png,11,right,val,30,"care la rodilla, sepa ha de ser enton-",31,193,381,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_031.png,11,right,val,31,"ces al Altar, y no a vos.",32,221,245,38,"de- de- d- d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_032.png,11,right,val,32,Assistid a los divinos Oficios siem-,53,251,363,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_033.png,11,right,val,33,"pre que podays, no permitiendo si-",31,280,385,39,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_034.png,11,right,val,34,tial estando patente el Santissimo,31,310,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_035.png,11,right,val,35,"Sacramento, ni en Semana Santa. ",32,339,361,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_036.png,11,right,val,36,"Oyd de buena gana Sermones, ",63,370,356,36,"de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_037.png,11,right,val,37,"con desseo de aprovechar, y no di-",31,398,389,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_038.png,11,right,val,38,"gays mal de ninguno, aunque no os ",33,428,388,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_039.png,11,right,val,39,aya parecido bien. ,31,456,204,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_040.png,11,right,val,40,"Acudireys a las processiones, imi-",62,485,356,35,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_041.png,11,right,val,41,tando alli interiormente el espiritu,33,517,391,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_042.png,11,right,val,42,del Santo Rey David.,33,549,238,30,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_043.png,11,right,val,43,De las Iglesias de vuestro Estado,60,573,364,36,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_044.png,11,right,val,44,hareys cuydar mucho (q no esta des-,33,601,392,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_045.png,11,right,val,45,obligados desto los Señores tempora-,34,633,388,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_046.png,11,right,val,46,"les, por tocar principalmete a los O-",35,664,391,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_047.png,11,right,val,47,bispos) procurad las tega co todas de-,36,695,386,30,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/val/image_11_right_048.png,11,right,val,48,"cencia, y proveydas de lo necessario;",37,719,390,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_001.png,12,left,train,1,"y para edificarlas, y adornarlas, con ",86,52,387,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_002.png,12,left,train,2,"Retablos, como tambien para Her-",84,80,377,37,"de- - ao
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_003.png,12,left,train,3,"mitas, y otras cosas de devocion de ",84,109,385,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_004.png,12,left,train,4,"vuestros vassallos los ayudareys con limosnas, ",84,138,385,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_005.png,12,left,train,5,y se las alabareys.,84,168,286,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_006.png,12,left,train,6,"Para las fiestas de acavallo, y ar-",113,197,356,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_007.png,12,left,train,7,"mas que huvieredes de hazer, to-",83,227,386,37,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_008.png,12,left,train,8,mad motivos devotos en honra de ,82,256,387,38,"de- de- de- d e-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_009.png,12,left,train,9,"nuestro Señor, y de sus Santos, por-",81,286,386,36,"de- - dos de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_010.png,12,left,train,10,"que saqueys provecho de todo, y no",80,314,388,37,"du- de- de- s- d- d-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_011.png,12,left,train,11,aya en ellas desgracias. ,81,343,244,37,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_012.png,12,left,train,12,Cada año celebrareys con solem-,110,372,357,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_013.png,12,left,train,13,nidad de la Iglesia (a lo menos) la,82,403,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_014.png,12,left,train,14,Fiesta del Santo de vuestro nombre.,82,431,385,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_015.png,12,left,train,15,"Y del Angel de la Guarda, a quien",82,459,386,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_016.png,12,left,train,16,"aveys de tener gran respeto, conti-",79,490,388,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_017.png,12,left,train,17,nua consideracion de traerle pre-,79,518,388,37,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_018.png,12,left,train,18,"sente, y agradecimiento a los mu-",80,548,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_019.png,12,left,train,19,"chos beneficios, que según ponde-",80,577,387,38,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_020.png,12,left,train,20,"ran los Santos Doctores Bernardo, ",81,606,380,38,"-
+de- d d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_021.png,12,left,train,21,"Ambrosio, y Basilio, exercitan estos",80,637,386,35,"- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_022.png,12,left,train,22,gloriosos Angeles con todas las al-,81,667,384,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_023.png,12,left,train,23,"mas de que tienen tutela; Platon, ",80,695,377,36,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_left_024.png,12,left,train,24,y otros muchos Philosophos Gen-,81,723,384,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_025.png,12,right,train,25,"Tiles lo conocieron assi, y los vene-",31,77,159,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_026.png,12,right,train,26,raron por ello. ,67,104,351,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_027.png,12,right,train,27,Mas vuestra mayor Fiesta reser-,29,135,391,36,"de-
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_028.png,12,right,train,28,vad para el dia en que cumplieredes,29,164,391,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_029.png,12,right,train,29,"años de Bautismo, este han de ser las",29,193,389,38,"de- d - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_030.png,12,right,train,30,"galas, y regozijo, en reconocimien-",28,222,392,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_031.png,12,right,train,31,to de averos hecho Dios hijo de su ,26,251,396,38,"de- de- - máo
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_032.png,12,right,train,32,"Iglesia, y no como se acostumbra en",27,281,394,37,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_033.png,12,right,train,33,"el que nacimos hijos de ira, cuya",30,310,389,37,"- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_034.png,12,right,train,34,memoria siepre nos devria entriste-,29,340,392,37,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_035.png,12,right,train,35,"zer, enternezer, y lastimar; y una",28,369,392,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_036.png,12,right,train,36,de las acciones que aveys de hazer,29,399,391,35,"de- de- - de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_037.png,12,right,train,37,con mucha atencion y devocion en,29,428,391,36,"d de- de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_038.png,12,right,train,38,"el dia desta Fiesta, ha de ser ofrecer",31,457,389,36,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_039.png,12,right,train,39,en la Missa (saliendo de vuestro,31,486,383,35,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_040.png,12,right,train,40,puesto a besar la mano al Sacerdote),31,514,391,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_041.png,12,right,train,41,"tantas monedas de oro, quantos ",31,544,387,36,"de- - - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_042.png,12,right,train,42,"años cumplieredes, para que se gas-",31,572,391,39,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_043.png,12,right,train,43,"ten en ornato de la Iglesia, o limos-",59,631,359,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_044.png,12,right,train,44,nas. ,31,661,389,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_045.png,12,right,train,45,Vuestra principal devocion em-,31,690,388,37,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_12_right_046.png,12,right,train,46,plead en el Santissimo Sacramento,33,720,385,38,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_001.png,13,left,train,1,rad lo que ha engrandezido Dios,90,74,383,36,"-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_002.png,13,left,train,2,por este camino sobre todas las fa-,90,103,384,36,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_003.png,13,left,train,3,"milias del mundo, la imperial Casa",89,133,384,36,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_004.png,13,left,train,4,"de Austria, imitad los actos de Fe",89,163,384,35,"de- - de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_005.png,13,left,train,5,visa que muchos han hecho con,89,192,384,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_006.png,13,left,train,6,este divino Misterio. De uno de los,88,220,385,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_007.png,13,left,train,7,Potentados de Italia de nuestros,87,250,386,37,"de- da- d- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_008.png,13,left,train,8,"tiempos, oi, que aviendo de traerle",87,279,386,36,"d-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_009.png,13,left,train,9,a la hora de su muerte el Viatico,87,309,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_010.png,13,left,train,10,"hizo colgar, cubrir de alhombras, y ",88,337,385,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_011.png,13,left,train,11,"perfumar su casa, inchirla de lumi-",88,367,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_012.png,13,left,train,12,"narias, y todo genero de rico ador-",87,396,386,37,"de- de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_013.png,13,left,train,13,"no, y musica, y que al entrar este Su-",85,425,388,37,"de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_014.png,13,left,train,14,"premo Rey por sus puertas, se dispa-",85,453,390,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_015.png,13,left,train,15,"rase la artilleria del Castillo, que le",86,483,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_016.png,13,left,train,16,hizo una gran salva. A este exemplo ,85,512,390,36,"de- de- - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_017.png,13,left,train,17,añadire otro de la Condesa de ,85,542,389,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_018.png,13,left,train,18,"Buendia Doña Maria de Acuña, ",85,570,389,38,"de- de- - d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_019.png,13,left,train,19,bien conocida por su rara virtud. ,86,599,389,37,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_020.png,13,left,train,20,Esta Señora llegando a su casa un,85,630,390,35,"de- d- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_021.png,13,left,train,21,"dia, que venia de Missa, y oyendo",85,657,390,38,"de- u de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_022.png,13,left,train,22,trayan la comunion a un cochero,83,689,392,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_left_023.png,13,left,train,23,"suyo, quiso entrar en el aposento ",82,717,393,37,"de- - de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_024.png,13,right,train,24,"donde estava, y viendole (como lo",21,72,380,35,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_025.png,13,right,train,25,avia juzgado) tan indecente para es-,22,99,371,39,"d -
+de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_026.png,13,right,train,26,"perar tal huesped, mandando ocu-",21,129,363,37,"de- du- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_027.png,13,right,train,27,"par los reposteros en limpiarle, y",21,158,388,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_028.png,13,right,train,28,"colgarle con lo mejor de su casa, ",23,187,388,38,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_029.png,13,right,train,29,y a los q le acopanava en coponer un,21,216,390,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_030.png,13,right,train,30,"curioso Altar todo muy perfumado, ",22,245,391,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_031.png,13,right,train,31,"assistio alli hasta q recibio, y acopaño",21,276,391,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_032.png,13,right,train,32,(al salir) el Santissimo Sacramento: lo,22,304,391,39,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_033.png,13,right,train,33,"qual hareys vos, no solo encontran-",23,336,387,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_034.png,13,right,train,34,"dole, sino buscando ocasiones para",25,366,390,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_035.png,13,right,train,35,"ello, alumbradle por vuestra perso-",25,396,391,33,"de- - - s
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_036.png,13,right,train,36,"na, y las de vuestros pajes y criados, ",29,425,387,34,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_037.png,13,right,train,37,tomad la esclavitud suya (y de la,24,451,390,37,"dos de- - - -
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_038.png,13,right,train,38,"Virgen nuestra Señora, que ha de ",27,482,389,35,"d de- de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_039.png,13,right,train,39,ser vuestro amparo y Madre) y al fin,27,512,382,34,"de- d - - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_040.png,13,right,train,40,"en todas ocasiones reverenciad, y ",29,539,387,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_041.png,13,right,train,41,servid a aquel Divino Señor Sacra-,29,569,383,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_042.png,13,right,train,42,mentado en el Misterio de Fe que ,30,599,380,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_043.png,13,right,train,43,"mas la manifiesta, pues hasta los irra-",30,632,381,29,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_044.png,13,right,train,44,"cionales nos enseñan esto, como en-",30,663,387,29,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/train/image_13_right_045.png,13,right,train,45,tre otros muchos se vio en la oveji-,31,687,387,35,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_001.png,14,left,test,1,,88,69,389,39,"de- de- de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_002.png,14,left,test,2,,87,98,390,40,"- de- d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_003.png,14,left,test,3,,86,127,389,39,"de- de- de- de- - d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_004.png,14,left,test,4,,85,158,392,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_005.png,14,left,test,5,,86,187,389,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_006.png,14,left,test,6,,85,216,388,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_007.png,14,left,test,7,,116,276,359,39,"de-
+de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_008.png,14,left,test,8,,88,306,387,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_009.png,14,left,test,9,,87,333,388,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_010.png,14,left,test,10,,85,365,392,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_011.png,14,left,test,11,,85,393,391,37,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_012.png,14,left,test,12,,84,421,393,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_013.png,14,left,test,13,,85,451,392,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_014.png,14,left,test,14,,85,479,393,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_015.png,14,left,test,15,,84,511,396,36,"- de- de- du-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_016.png,14,left,test,16,,84,539,395,38,"de- d- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_017.png,14,left,test,17,,84,568,390,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_018.png,14,left,test,18,,84,598,385,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_019.png,14,left,test,19,,84,629,389,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_020.png,14,left,test,20,,83,655,390,39,"d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_021.png,14,left,test,21,,83,685,391,38,"de- du- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_left_022.png,14,left,test,22,,83,716,308,37,"d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_023.png,14,right,test,23,,27,78,391,36,"de- do- - - -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_024.png,14,right,test,24,,26,108,399,36,"de- de- - d- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_025.png,14,right,test,25,,25,137,385,37,"de- - d de- - de- d
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_026.png,14,right,test,26,,24,164,386,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_027.png,14,right,test,27,,24,194,389,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_028.png,14,right,test,28,,23,223,387,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_029.png,14,right,test,29,,24,253,379,39,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_030.png,14,right,test,30,,23,284,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_031.png,14,right,test,31,,22,311,395,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_032.png,14,right,test,32,,23,343,394,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_033.png,14,right,test,33,,23,372,393,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_034.png,14,right,test,34,,23,399,395,40,"e- - de-
+de-
+de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_035.png,14,right,test,35,,23,430,384,38,"de-
+de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_036.png,14,right,test,36,,22,456,396,41,"dos de- de- de- d s--
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_037.png,14,right,test,37,,23,484,394,41,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_038.png,14,right,test,38,,23,516,393,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_039.png,14,right,test,39,,24,545,390,38,"de- de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_040.png,14,right,test,40,,24,574,392,41,"de- d- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_041.png,14,right,test,41,,57,635,359,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_042.png,14,right,test,42,,23,663,393,40,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_043.png,14,right,test,43,,23,695,393,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_14_right_044.png,14,right,test,44,,24,723,391,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_001.png,15,left,test,1,,99,74,388,38,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_002.png,15,left,test,2,,99,101,388,40,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_003.png,15,left,test,3,,98,130,386,43,"de-
+d-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_004.png,15,left,test,4,,101,162,226,37,"de- - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_005.png,15,left,test,5,,124,189,371,42,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_006.png,15,left,test,6,,99,220,391,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_007.png,15,left,test,7,,100,246,389,43,"de-
+da- da- d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_008.png,15,left,test,8,,100,276,387,41,"de- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_009.png,15,left,test,9,,100,306,389,41,"- d du-
+de- de-
+- d d
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_010.png,15,left,test,10,,100,338,389,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_011.png,15,left,test,11,,102,367,389,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_012.png,15,left,test,12,,101,396,390,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_013.png,15,left,test,13,,100,424,392,40,"de-
+d - d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_014.png,15,left,test,14,,100,453,392,40,"de- dos
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_015.png,15,left,test,15,,100,483,391,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_016.png,15,left,test,16,,100,512,389,39,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_017.png,15,left,test,17,,102,539,387,41,"de- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_018.png,15,left,test,18,,102,569,387,40,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_019.png,15,left,test,19,,102,599,389,39,"de- de- de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_020.png,15,left,test,20,,102,630,386,37,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_021.png,15,left,test,21,,101,659,388,37,"d- de- d de- de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_022.png,15,left,test,22,,102,688,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_left_023.png,15,left,test,23,,102,717,388,42,"de- -
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_024.png,15,right,test,24,,41,67,388,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_025.png,15,right,test,25,,42,97,383,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_026.png,15,right,test,26,,40,125,386,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_027.png,15,right,test,27,,40,154,385,37,"d de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_028.png,15,right,test,28,,40,183,385,36,"de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_029.png,15,right,test,29,,38,213,389,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_030.png,15,right,test,30,,38,240,391,39,"e- de- d -
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_031.png,15,right,test,31,,37,271,392,38,"de- de- de- de-
+d d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_032.png,15,right,test,32,,38,303,390,37,"de- de-
+áF d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_033.png,15,right,test,33,,38,330,391,36,"de- de- d
+d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_034.png,15,right,test,34,,38,360,391,36,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_035.png,15,right,test,35,,39,389,390,35,"d de- de- d-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_036.png,15,right,test,36,,39,418,391,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_037.png,15,right,test,37,,40,450,177,33,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_038.png,15,right,test,38,,72,475,359,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_039.png,15,right,test,39,,39,505,390,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_040.png,15,right,test,40,,39,535,391,35,"de- de- d de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_041.png,15,right,test,41,,38,565,390,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_042.png,15,right,test,42,,40,593,388,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_043.png,15,right,test,43,,40,624,253,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_044.png,15,right,test,44,,67,653,362,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_045.png,15,right,test,45,,38,682,389,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_046.png,15,right,test,46,,38,712,388,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_15_right_047.png,15,right,test,47,,38,740,389,37,"de- de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_001.png,16,left,test,1,,89,65,389,38,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_002.png,16,left,test,2,,90,94,390,39,"do- de- de- de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_003.png,16,left,test,3,,90,123,390,40,"de- de- de- du-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_004.png,16,left,test,4,,90,153,391,40,"de-
+
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_005.png,16,left,test,5,,90,183,391,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_006.png,16,left,test,6,,90,211,390,40,"de-
+d de- s de- d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_007.png,16,left,test,7,,90,241,392,39,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_008.png,16,left,test,8,,90,270,395,39,"de- de- du- de- d- s
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_009.png,16,left,test,9,,91,299,390,39,"de- de- - de- d-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_010.png,16,left,test,10,,90,329,389,38,"de- dos de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_011.png,16,left,test,11,,91,359,388,39,"de-
+- ao d
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_012.png,16,left,test,12,,92,389,389,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_013.png,16,left,test,13,,91,418,388,39,"de-
+
+de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_014.png,16,left,test,14,,91,446,389,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_015.png,16,left,test,15,,92,479,100,31,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_016.png,16,left,test,16,,117,505,364,36,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_017.png,16,left,test,17,,90,534,389,38,"de- de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_018.png,16,left,test,18,,91,563,389,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_019.png,16,left,test,19,,91,592,390,39,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_020.png,16,left,test,20,,92,623,91,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_021.png,16,left,test,21,,91,651,389,40,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_022.png,16,left,test,22,,91,680,390,38,"de- de- du-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_023.png,16,left,test,23,,92,711,389,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_left_024.png,16,left,test,24,,90,740,390,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_025.png,16,right,test,25,,23,77,376,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_026.png,16,right,test,26,,21,104,386,38,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_027.png,16,right,test,27,,21,135,381,35,"de- -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_028.png,16,right,test,28,,21,165,380,34,"d - -
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_029.png,16,right,test,29,,23,195,380,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_030.png,16,right,test,30,,23,221,387,37,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_031.png,16,right,test,31,,23,254,241,35,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_032.png,16,right,test,32,,60,281,348,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_033.png,16,right,test,33,,23,311,385,35,"de-
+de- se
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_034.png,16,right,test,34,,23,340,385,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_035.png,16,right,test,35,,23,372,384,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_036.png,16,right,test,36,,23,398,387,35,"de- uo - de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_037.png,16,right,test,37,,23,427,386,35,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_038.png,16,right,test,38,,23,457,385,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_039.png,16,right,test,39,,23,486,385,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_040.png,16,right,test,40,,23,517,389,31,"da-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_041.png,16,right,test,41,,23,549,385,30,"-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_042.png,16,right,test,42,,21,576,387,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_043.png,16,right,test,43,,21,603,389,33,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_044.png,16,right,test,44,,22,637,389,28,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_045.png,16,right,test,45,,21,663,380,32,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_046.png,16,right,test,46,,23,691,350,34,"de-
+"
+data/2_bounding_box/Doc-UFCN_processed/test/image_16_right_047.png,16,right,test,47,,43,719,369,36,"de-
+"
