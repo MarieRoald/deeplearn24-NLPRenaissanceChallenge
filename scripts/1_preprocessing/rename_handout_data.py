@@ -11,7 +11,7 @@ logger.setLevel(logging.DEBUG)
 
 
 def rename_handout_data():
-    modified_p = Path("data/0_input/handout-modified/original_splits/")
+    modified_p = Path("data/0_input/handout-modified/original_data_split/")
 
     logger.info(f"Copying data from data/0_input/handout-created to {modified_p}")
 
@@ -33,7 +33,7 @@ def rename_handout_data():
     df["from_path"] = df.FILENAME.apply(lambda x: f"data/0_input/handout-created/outputTest/{x}")
 
     df["image_path"] = df.apply(
-        lambda row: f"data/0_input/handout-modified/original_splits/{row.split}/{row.name}.png",
+        lambda row: f"data/0_input/handout-modified/original_data_split/{row.split}/{row.name}.png",
         axis=1,
     )
 
@@ -78,4 +78,4 @@ if __name__ == "__main__":
 
     rename_handout_data()
 
-    logger.info("Done. See results in data/0_input/handout-modified/original_splits")
+    logger.info("Done. See results in data/0_input/handout-modified/original_data_split")
