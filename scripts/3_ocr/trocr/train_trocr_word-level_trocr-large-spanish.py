@@ -4,7 +4,11 @@ from pathlib import Path
 import datasets
 import mlflow
 import torch
-from deeplearn24.mlflow_callbacks import ImageSaverCallback
+from deeplearn24.mlflow_callbacks import ImageSaverCallback, TrainEvalCallback
+from deeplearn24.postprocessing import (
+    load_dictionaries,
+    post_process_text,
+)
 from deeplearn24.tr_ocr import compute_metrics, transform_data
 from transformers import (
     Seq2SeqTrainer,
@@ -56,6 +60,10 @@ model.generation_config.no_repeat_ngram_size = 3
 model.generation_config.length_penalty = 2.0
 model.generation_config.num_beams = 4
 
+unique_words = load_dictionaries(
+    Path("data/0_input/sbwce-corpus/dictionary.json"),
+    Path("data/0_input/dataset_words/dictionary.json"),
+)
 
 with mlflow.start_run() as run:
     # Setup trainer
@@ -76,15 +84,20 @@ with mlflow.start_run() as run:
         learning_rate=1e-5,
     )
 
+    postprocess = partial(post_process_text, unique_words=unique_words)
+    eval_func = partial(compute_metrics, processor=processor, postprocess=postprocess)
     trainer = Seq2SeqTrainer(
         model=model,
         tokenizer=processor.feature_extractor,
         args=training_args,
-        compute_metrics=partial(compute_metrics, processor=processor),
+        compute_metrics=eval_func,
         train_dataset=processed_train_set,
         eval_dataset=processed_validation_set,
         data_collator=default_data_collator,
-        callbacks=[ImageSaverCallback(processor, validation_set, processed_validation_set, device)],
+        callbacks=[
+            ImageSaverCallback(processor, validation_set, processed_validation_set, device),
+            TrainEvalCallback(eval_func, batch_size=50),
+        ],
     )
     trainer.train()
 

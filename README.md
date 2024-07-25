@@ -63,3 +63,7 @@ Some useful commands are:
 
 If you go through all virtual envrionments you've created with PDM and set them as the selected interpreter in VSCode, then you can easily switch between them by pressing the virtual envrionment name in the bottom right corner.
 To see the path off all PDM virtual environments for this project, type `pdm venv list`.
+
+
+## License
+The code (but not data) in this repository is licensed following a GPL3 license.

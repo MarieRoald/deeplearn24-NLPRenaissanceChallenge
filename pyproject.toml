@@ -8,10 +8,11 @@ authors = [
 dependencies = [
     "typing-extensions>=4.12.2",
     "httpx",
+    "levenshtein>=0.25.1",
 ]
 requires-python = "<3.12,>=3.11"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "GPLv3"}
 
 [project.optional-dependencies]
 handout_notebook = [
