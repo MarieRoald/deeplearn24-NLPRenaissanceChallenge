@@ -17,6 +17,13 @@ def get_df(csv_path: Path) -> pd.DataFrame:
     if "split" in df.columns:
         df = df[df.split != "test"].copy()
         df.index = range(len(df))
+
+    if not all(df.file_name.apply(Path).apply(lambda x: x.exists())):
+        df["file_name"] = df.file_name.apply(lambda x: csv_path.parent / x)
+        if not all(df.file_name.apply(lambda x: x.exists())):
+            logger.error(f"Some source images do not exist")
+            logger.info(df.file_name[0])
+            exit()
     return df
 
 
@@ -25,9 +32,6 @@ def data_to_tesstrain(df: pd.DataFrame, tesstrain_gt_path: Path) -> pd.DataFrame
 
     logger.info("Copying images to testrain directory")
     df["source_img_path"] = df.file_name.apply(Path)
-    if not all(df.source_img_path.apply(lambda x: x.exists())):
-        logger.error(f"Some source images do not exist")
-        exit()
 
     df["text_file"] = df.source_img_path.apply(lambda img: tesstrain_gt_path / f"{img.stem}.gt.txt")
     df["img_file"] = df.source_img_path.apply(lambda img: tesstrain_gt_path / f"{img.stem}.png")
