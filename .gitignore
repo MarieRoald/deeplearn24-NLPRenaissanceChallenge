@@ -1,6 +1,6 @@
 data/mlflow
 .vscode/
-data/
+# data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -171,7 +171,5 @@ tesstrain
 # Notebook for random stuff
 kladd.ipynb
 
-models/tesseract/*/*
-data/0_input/handout-modified/test
-data/0_input/handout-modified/train
-data/0_input/handout-modified/val
+models/*/*/tesseract/*/*
+
