@@ -1,4 +1,4 @@
-transcription,image_path,page,split
+transcription,file_name,page,split
 con,data/0_input/handout-modified/our_data_split/val/9ab47225.png,20,val
 a,data/0_input/handout-modified/our_data_split/val/dabaa250.png,10,val
 exemplo,data/0_input/handout-modified/our_data_split/val/a791e768.png,11,val

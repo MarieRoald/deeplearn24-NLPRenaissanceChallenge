@@ -1,4 +1,4 @@
-image_path,transcription,prediction
+file_name,transcription,prediction
 data/0_input/handout-modified/train/0.png,da,
 data/0_input/handout-modified/train/1.png,CONSEJOS,"CONSEJOS
 "

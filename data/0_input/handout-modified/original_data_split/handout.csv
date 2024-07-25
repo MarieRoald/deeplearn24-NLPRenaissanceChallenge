@@ -1,4 +1,4 @@
-image_path,transcription,split
+file_name,transcription,split
 data/0_input/handout-modified/original_data_split/test/0.png,,test
 data/0_input/handout-modified/original_data_split/test/1.png,,test
 data/0_input/handout-modified/original_data_split/test/2.png,,test

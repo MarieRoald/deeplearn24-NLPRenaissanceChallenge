@@ -1,4 +1,4 @@
-image_path,transcription
+file_name,transcription
 data/0_input/handout-modified/original_data_split/train/855.png,da
 data/0_input/handout-modified/original_data_split/train/856.png,CONSEJOS
 data/0_input/handout-modified/original_data_split/train/857.png,buen

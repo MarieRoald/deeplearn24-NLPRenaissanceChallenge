@@ -145,9 +145,9 @@ def run_watershed(mask: ImageArray, processed_mask: ImageArray, image: ImageArra
         cv2.imwrite(str(page_debug_directory / f"DEBUG_watershed.png"), markers * 10)
 
 
-def get_page_number(image_path: Path) -> int:
-    is_right = "right" in image_path.stem
-    image_number = int(image_path.stem.split("-")[1])
+def get_page_number(file_name: Path) -> int:
+    is_right = "right" in file_name.stem
+    image_number = int(file_name.stem.split("-")[1])
 
     if is_right:
         page_number = (image_number - 1) * 2 + 1
@@ -295,7 +295,7 @@ if __name__ == "__main__":
     model = DocUFCN(len(parameters["classes"]), parameters["input_size"], "cpu")
     model.load(model_path, parameters["mean"], parameters["std"])
 
-    image_paths = sorted(input_directory.glob("*.png"), key=get_page_number)
+    file_names = sorted(input_directory.glob("*.png"), key=get_page_number)
 
     page_data = []
     for spread_number in range(1, 17):
@@ -313,18 +313,18 @@ if __name__ == "__main__":
         line_count = 1
 
         for page in spread:
-            image_path = (
+            file_name = (
                 input_directory / f"image-{spread_number:03d}-{(spread_number-1)*5:03d}_{page}.png"
             )
-            logger.info("Processing %s", image_path)
+            logger.info("Processing %s", file_name)
 
             page_debug_directory = (
-                output_directory.parent / f"{output_directory.name}_debug" / image_path.stem
+                output_directory.parent / f"{output_directory.name}_debug" / file_name.stem
             )
             page_debug_directory.mkdir(exist_ok=True, parents=True)
 
             # Preprocess image
-            image = cv2.imread(str(image_path))
+            image = cv2.imread(str(file_name))
             mask = preprocess_image_and_run_doc_ufcn(image)
             mask = cleanup_mask(
                 mask,

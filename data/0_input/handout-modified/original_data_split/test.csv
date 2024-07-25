@@ -1,4 +1,4 @@
-image_path,IDENTITY
+file_name,IDENTITY
 data/0_input/handout-modified/original_data_split/test/0.png,0
 data/0_input/handout-modified/original_data_split/test/1.png,1
 data/0_input/handout-modified/original_data_split/test/2.png,2

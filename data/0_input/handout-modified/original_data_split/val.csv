@@ -1,4 +1,4 @@
-image_path,transcription
+file_name,transcription
 data/0_input/handout-modified/original_data_split/val/1855.png,Dios
 data/0_input/handout-modified/original_data_split/val/1856.png,más
 data/0_input/handout-modified/original_data_split/val/1857.png,ellas

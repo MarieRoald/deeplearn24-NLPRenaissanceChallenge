@@ -28,8 +28,8 @@ def pdf_to_images(pdf_path: Path, output_folder: Path) -> None:
 
     for page in document:
         pixmap = page.get_pixmap()
-        image_path = output_folder / f"{page.number}.png"
-        pixmap.save(str(image_path))
+        file_name = output_folder / f"{page.number}.png"
+        pixmap.save(str(file_name))
 
     document.close()
 
@@ -104,7 +104,7 @@ def extract_pages(
 
 
 def extract_all_pages(
-    image_paths: list[Path],
+    file_names: list[Path],
     left_top_left: tuple[int, int],
     left_bottom_right: tuple[int, int],
     right_top_left: tuple[int, int],
@@ -116,9 +116,9 @@ def extract_all_pages(
     Extracts the left and right pages from a list of images.
     """
     output_directory.mkdir(exist_ok=True, parents=True)
-    for image_path in image_paths:
-        logger.info("Extracting pages from the image: %s", image_path)
-        image = Image.open(str(image_path))
+    for file_name in file_names:
+        logger.info("Extracting pages from the image: %s", file_name)
+        image = Image.open(str(file_name))
         left_page, right_page = extract_pages(
             image,
             left_top_left,
@@ -128,8 +128,8 @@ def extract_all_pages(
             should_straighten,
         )
 
-        left_page.save(str(output_directory / f"{image_path.stem}_left.png"))
-        right_page.save(str(output_directory / f"{image_path.stem}_right.png"))
+        left_page.save(str(output_directory / f"{file_name.stem}_left.png"))
+        right_page.save(str(output_directory / f"{file_name.stem}_right.png"))
 
 
 if __name__ == "__main__":
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     logging.info("Extracting images from the PDF file: %s", pdf_path)
     extract_images_from_pdf(pdf_path, extracted_raw_images_directory)
 
-    image_paths = (
+    file_names = (
         sorted(extracted_raw_images_directory.rglob(f"image-{page_num:03d}-*.png"))[0]
         for page_num in page_nums
     )
@@ -188,7 +188,7 @@ if __name__ == "__main__":
         "Extracting pages from the images in the directory: %s", extracted_raw_images_directory
     )
     extract_all_pages(
-        image_paths,
+        file_names,
         left_top_left,
         left_bottom_right,
         right_top_left,

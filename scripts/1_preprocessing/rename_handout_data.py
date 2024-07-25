@@ -32,7 +32,7 @@ def rename_handout_data():
     df.index = range(len(df))
     df["from_path"] = df.FILENAME.apply(lambda x: f"data/0_input/handout-created/outputTest/{x}")
 
-    df["image_path"] = df.apply(
+    df["file_name"] = df.apply(
         lambda row: f"data/0_input/handout-modified/original_data_split/{row.split}/{row.name}.png",
         axis=1,
     )
@@ -52,25 +52,25 @@ def rename_handout_data():
         if not img.exists():
             logger.error(f"{img} does not exist")
             exit()
-        copy(src=img, dst=e.image_path)
+        copy(src=img, dst=e.file_name)
 
         if e.split == "test":
             continue
         elif e.split == "train":
-            txt_file = train_p / f"{Path(e.image_path).stem}.txt"
+            txt_file = train_p / f"{Path(e.file_name).stem}.txt"
         else:
-            txt_file = val_p / f"{Path(e.image_path).stem}.txt"
+            txt_file = val_p / f"{Path(e.file_name).stem}.txt"
         with txt_file.open("w+") as f:
             f.write(e.transcription)
 
-    df[["image_path", "transcription", "split"]].to_csv(modified_p / "handout.csv", index=False)
-    df[df.split == "train"][["image_path", "transcription"]].to_csv(
+    df[["file_name", "transcription", "split"]].to_csv(modified_p / "handout.csv", index=False)
+    df[df.split == "train"][["file_name", "transcription"]].to_csv(
         modified_p / "train.csv", index=False
     )
-    df[df.split == "val"][["image_path", "transcription"]].to_csv(
+    df[df.split == "val"][["file_name", "transcription"]].to_csv(
         modified_p / "val.csv", index=False
     )
-    df[df.split == "test"][["image_path"]].to_csv(modified_p / "test.csv", index=False)
+    df[df.split == "test"][["file_name"]].to_csv(modified_p / "test.csv", index=False)
 
 
 if __name__ == "__main__":

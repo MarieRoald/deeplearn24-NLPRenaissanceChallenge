@@ -23,7 +23,7 @@ AUTOTUNE = tf.data.AUTOTUNE
 BATCH_SIZE = 16
 
 
-def load_image(image_path: str):
+def load_image(file_name: str):
     """
     This function loads and preprocesses images. It first receives the image path, which is used to
     decode the image as a JPEG using TensorFlow. Then, it converts the image to a tensor and applies
@@ -31,14 +31,14 @@ def load_image(image_path: str):
     the function.
 
     Argument :
-        image_path : The path of the image file to be loaded.
+        file_name : The path of the image file to be loaded.
 
     Return:
         image : The loaded image as a tensor.
     """
 
     # Read the Image
-    image = tf.io.read_file(image_path)
+    image = tf.io.read_file(file_name)
 
     # Decode the image
     decoded_image = tf.image.decode_jpeg(contents=image, channels=1)
@@ -97,7 +97,7 @@ def decode_pred(pred_label):
     return filtered_texts
 
 
-def encode_single_sample(image_path: str, label: str = ""):
+def encode_single_sample(file_name: str, label: str = ""):
     """
     The function takes an image path and label as input and returns a dictionary containing the processed image tensor and the label tensor.
     First, it loads the image using the load_image function, which decodes and resizes the image to a specific size. Then it converts the given
@@ -107,7 +107,7 @@ def encode_single_sample(image_path: str, label: str = ""):
     and the label tensor.
 
     Arguments :
-        image_path : The location of the image file.
+        file_name : The location of the image file.
         label      : The text to present in the image.
 
     Returns:
@@ -115,7 +115,7 @@ def encode_single_sample(image_path: str, label: str = ""):
     """
 
     # Get the image
-    image = load_image(image_path)
+    image = load_image(file_name)
 
     # Convert the label into characters
     chars = tf.strings.unicode_split(label, input_encoding="UTF-8")
@@ -137,7 +137,7 @@ def predict_df(df: pd.DataFrame) -> pd.DataFrame:
     model = tf.keras.models.load_model("models/keras/example_model.keras")
     ds = (
         tf.data.Dataset.from_tensor_slices(
-            (np.array(df.image_path.to_list()), np.array([""] * len(df)))
+            (np.array(df.file_name.to_list()), np.array([""] * len(df)))
         )
         .map(encode_single_sample, num_parallel_calls=AUTOTUNE)
         .batch(BATCH_SIZE)

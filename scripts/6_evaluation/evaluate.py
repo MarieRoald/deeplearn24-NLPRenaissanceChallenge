@@ -46,7 +46,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--remove_test",
         action="store_true",
-        help="Will sort out csv rows with 'test' in image_path if flagged",
+        help="Will sort out csv rows with 'test' in file_name if flagged",
     )
     args = parser.parse_args()
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     df = pd.read_csv(args.input_csv)
     if args.remove_test:
-        df = df[df.image_path.apply(lambda x: "test" not in x)]
+        df = df[df.file_name.apply(lambda x: "test" not in x)]
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
 

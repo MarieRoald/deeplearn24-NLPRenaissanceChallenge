@@ -24,7 +24,7 @@ def data_to_tesstrain(df: pd.DataFrame, tesstrain_gt_path: Path) -> pd.DataFrame
     """Copy the image files in the DataFrame to the tesstrain data directory on the required format"""
 
     logger.info("Copying images to testrain directory")
-    df["source_img_path"] = df.image_path.apply(Path)
+    df["source_img_path"] = df.file_name.apply(Path)
     if not all(df.source_img_path.apply(lambda x: x.exists())):
         logger.error(f"Some source images do not exist")
         exit()
@@ -64,8 +64,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data_csv",
         type=Path,
-        default=Path(__file__).parent.parent.parent.parent
-        / "data/0_input/handout-modified/handout.csv",
+        required=True,
     )
     parser.add_argument(
         "--tesstrain_directory",
@@ -86,6 +85,7 @@ if __name__ == "__main__":
     tesstrain_gt_path.mkdir(parents=True, exist_ok=True)
 
     df = get_df(args.data_csv)
+
     df = data_to_tesstrain(df=df, tesstrain_gt_path=tesstrain_gt_path)
 
     if args.copy_splits:

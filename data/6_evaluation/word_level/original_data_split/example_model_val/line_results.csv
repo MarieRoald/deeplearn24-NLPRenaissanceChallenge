@@ -1,4 +1,4 @@
-image_path,transcription,prediction,correct_prediction,wer,cer
+file_name,transcription,prediction,correct_prediction,wer,cer
 data/0_input/handout-modified/val/1855.png,Dios,Eos,False,0.9523809523809523,0.4882786336235767
 data/0_input/handout-modified/val/1856.png,más,taos,False,0.9523809523809523,0.4882786336235767
 data/0_input/handout-modified/val/1857.png,ellas,elas,False,0.9523809523809523,0.4882786336235767

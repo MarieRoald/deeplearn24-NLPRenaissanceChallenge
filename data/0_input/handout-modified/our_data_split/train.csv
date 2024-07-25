@@ -1,4 +1,4 @@
-transcription,image_path,page,split
+transcription,file_name,page,split
 hazer,data/0_input/handout-modified/our_data_split/train/909a48ac.png,23,train
 de,data/0_input/handout-modified/our_data_split/train/2d7f46d3.png,7,train
 excede,data/0_input/handout-modified/our_data_split/train/bd04d51f.png,17,train

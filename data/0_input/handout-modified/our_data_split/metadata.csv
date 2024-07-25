@@ -1,4 +1,4 @@
-image_path,page,split,transcription
+file_name,page,split,transcription
 data/0_input/handout-modified/our_data_split/test/128.png,26,test,
 data/0_input/handout-modified/our_data_split/test/765.png,31,test,
 data/0_input/handout-modified/our_data_split/test/167.png,27,test,

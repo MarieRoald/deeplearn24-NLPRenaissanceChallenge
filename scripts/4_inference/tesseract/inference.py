@@ -19,7 +19,7 @@ pil_logger.setLevel(logging.INFO)
 def tesseract_transcribe(model_name: str, input_csv: Path, output_csv: Path):
     df = pd.read_csv(input_csv)
     predictions = [
-        pytesseract.image_to_string(Image.open(e.image_path), lang=model_name)
+        pytesseract.image_to_string(Image.open(e.file_name), lang=model_name)
         for e in tqdm(df.itertuples(), total=len(df))
     ]
     df["prediction"] = predictions

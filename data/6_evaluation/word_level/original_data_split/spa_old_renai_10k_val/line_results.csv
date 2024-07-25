@@ -1,4 +1,4 @@
-image_path,transcription,prediction,correct_prediction,wer,cer
+file_name,transcription,prediction,correct_prediction,wer,cer
 data/0_input/handout-modified/val/1855.png,Dios,nan,False,0.7164502164502164,0.3968519758874749
 data/0_input/handout-modified/val/1856.png,más,nan,False,0.7164502164502164,0.3968519758874749
 data/0_input/handout-modified/val/1857.png,ellas,nan,False,0.7164502164502164,0.3968519758874749
