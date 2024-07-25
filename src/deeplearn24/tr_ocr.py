@@ -1,7 +1,9 @@
 from __future__ import annotations
 
-import evaluate
+from collections.abc import Callable
 from typing import TYPE_CHECKING, TypedDict
+
+import evaluate
 
 if TYPE_CHECKING:
     import torch
@@ -43,15 +45,31 @@ wer_metric = evaluate.load("wer")
 def compute_metrics(
     pred: transformers.trainer_utils.EvalPrediction,
     processor: transformers.models.trocr.processing_trocr.TrOCRProcessor,
+    postprocess: Callable[[str], str],
 ) -> dict[str, float]:
     labels_ids = pred.label_ids
     pred_ids = pred.predictions
 
     pred_str = processor.batch_decode(pred_ids, skip_special_tokens=True)
-    labels_ids[labels_ids == -100] = processor.tokenizer.pad_token_id
     label_str = processor.batch_decode(labels_ids, skip_special_tokens=True)
 
-    cer = cer_metric.compute(predictions=pred_str, references=label_str)
-    wer = wer_metric.compute(predictions=pred_str, references=label_str)
+    if not isinstance(pred_str, list):
+        pred_str_post = postprocess(pred_str)
+    else:
+        pred_str_post = [postprocess(text) for text in pred_str]
 
-    return {"cer": cer, "wer": wer}
+    out = {
+        "cer": cer_metric.compute(predictions=pred_str, references=label_str),
+        "wer": wer_metric.compute(predictions=pred_str, references=label_str),
+        "cer_postprocessed": cer_metric.compute(predictions=pred_str_post, references=label_str),
+        "wer_postprocessed": wer_metric.compute(predictions=pred_str_post, references=label_str),
+    }
+
+    lowest_cer = min(["cer", "cer_postprocessed"], key=out.__getitem__)
+    lowest_wer = min(["wer", "wer_postprocessed"], key=out.__getitem__)
+    out["cer_lowest"] = out[lowest_cer]
+    out["wer_lowest"] = out[lowest_wer]
+    out["cer_postprocessing_helped"] = lowest_cer == "cer_postprocessed"
+    out["wer_postprocessing_helped"] = lowest_wer == "wer_postprocessed"
+
+    return out
