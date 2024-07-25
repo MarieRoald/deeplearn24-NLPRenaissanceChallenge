@@ -42,7 +42,7 @@ def data_to_tesstrain(df: pd.DataFrame, tesstrain_gt_path: Path) -> pd.DataFrame
 
 def create_list_files(df: pd.DataFrame, tesstrain_model_path: Path):
     """Copy custom split to tesstrain directory"""
-    logger.info("Copying custom test and val split to tesstrain")
+    logger.info("Copying custom train and val split to tesstrain")
 
     tesstrain_path = tesstrain_model_path.parent.parent
     df["list_path"] = df.img_file.apply(
