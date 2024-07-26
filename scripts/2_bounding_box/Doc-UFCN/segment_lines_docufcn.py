@@ -1,3 +1,4 @@
+import argparse
 import json
 import logging
 from pathlib import Path
@@ -70,19 +71,6 @@ def draw_bounding_boxes(
     return bounding_box_vis
 
 
-def save_bounding_boxes(
-    bounding_boxes: dict[int, tuple[int, int, int, int]], image: ImageArray
-) -> None:
-    bounding_box_vis = image.copy()
-    for marker, (x, y, w, h) in bounding_boxes.items():
-        # crop image using the bounding box
-        cropped_image = image[y : y + h, x : x + w]
-        # save image as png
-        cv2.imwrite(
-            str(page_debug_directory / f"bounding_box_marker_{marker:03d}.png"), cropped_image
-        )
-
-
 def mask_away_non_roi(image: ImageArray, axis: Literal[0, 1], min_size: int = 30) -> ImageArray:
     image = image.copy()
     if axis == 0:
@@ -119,35 +107,9 @@ def mask_away_non_roi(image: ImageArray, axis: Literal[0, 1], min_size: int = 30
     return image
 
 
-def run_watershed(mask: ImageArray, processed_mask: ImageArray, image: ImageArray) -> ImageArray:
-    """Returns watershed segmentation of the mask (labelled blobs)"""
-    mask, processed_mask = mask.copy(), processed_mask.copy()
-
-    # Specify what parts of the image is guaranteed background (for watershed)
-    guaranteed_bg = cv2.dilate(mask, np.ones((5, 5), np.uint8), iterations=10).astype(np.uint8)
-
-    # The current mask is guaranteed to be line-blobs, so to get the undetermined regions,
-    # we subtract the mask from the guaranteed background to get the unknown regions
-    unknown = cv2.subtract(guaranteed_bg, processed_mask)
-
-    # Add the background as a separate blob and set the unknown regions as background before watershed
-    markers += 1
-    markers[unknown == 255] = 0
-
-    # Run watershed to grow the mask
-    markers = cv2.watershed(image, markers)
-
-    # Save debug images
-    if DEBUG:
-        cv2.imwrite(str(page_debug_directory / f"DEBUG_guaranteed_bg.png"), guaranteed_bg)
-        cv2.imwrite(str(page_debug_directory / f"DEBUG_unknown.png"), unknown)
-        cv2.imwrite(str(page_debug_directory / f"DEBUG_connected_components.png"), markers)
-        cv2.imwrite(str(page_debug_directory / f"DEBUG_watershed.png"), markers * 10)
-
-
-def get_page_number(file_name: Path) -> int:
-    is_right = "right" in file_name.stem
-    image_number = int(file_name.stem.split("-")[1])
+def get_page_number(image_path: Path) -> int:
+    is_right = "right" in image_path.stem
+    image_number = int(image_path.stem.split("-")[1])
 
     if is_right:
         page_number = (image_number - 1) * 2 + 1
@@ -278,8 +240,19 @@ def save_bounding_boxes_with_transcription(
 if __name__ == "__main__":
     setup_logging(log_dir=Path("logs/2_bounding_box/Doc-UFCN"), log_level=logging.DEBUG)
 
-    input_directory = Path("data/1_preprocessing/extracted_pages/processed_page_images")
-    output_directory = Path("data/2_bounding_box/Doc-UFCN_processed")
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input_directory",
+        type=Path,
+        default="data/1_preprocessing/extracted_pages/processed_page_images",
+    )
+    parser.add_argument(
+        "--output_directory", type=Path, default="data/2_bounding_box/Doc-UFCN_processed"
+    )
+
+    args = parser.parse_args()
+    input_directory = args.input_directory
+    output_directory = args.output_directory
     output_directory.mkdir(exist_ok=True, parents=True)
 
     with Path("data/0_input/data_splits.json").open("r") as f:
