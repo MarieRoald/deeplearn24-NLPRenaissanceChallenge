@@ -1,0 +1,97 @@
+image_path,spread_number,spread_side,split,line_number,transcription,x,y,w,h,prediction,correct_prediction,wer,cer
+val/image_6_left_001.png,6,left,val,1,"nima fortaleza, que es la propia, y ",92,61,358,37,"nima fortaleza, que es la propia,",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_002.png,6,left,val,2,"connatural de los Ilustres, procede ",93,90,383,36,"mentural de los llustres, procede",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_003.png,6,left,val,3,"de corazon grande, y este debe des",92,119,382,37,"de corazon grande, y este deve des-",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_004.png,6,left,val,4,"preciar la bxeza mayor, que es el",92,148,388,37,"preciar la baxeza mayor, que es el",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_005.png,6,left,val,5,abatirse a los vicios: segun Aristo-,92,179,387,35,abatirse a los vicios: según Aristo-,False,0.10147299509001637,0.021799201719373655
+val/image_6_left_006.png,6,left,val,6,"teles, y Ciceron, consiste en tres co-",93,208,386,36,"teles, y Ciceron, consiste en tres co-",True,0.10147299509001637,0.021799201719373655
+val/image_6_left_007.png,6,left,val,7,"sas, desestimar todas las exteriores, ",92,237,384,35,"sas, desestimar todas las exteriores,",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_008.png,6,left,val,8,"sufrir mucho por la Virtud, y por ",91,266,385,36,"sufrir mucho por la Virtud, y por",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_009.png,6,left,val,9,ella acometer arduas y grandes em-,90,295,386,37,ella acometer arduas y grandes em-,True,0.10147299509001637,0.021799201719373655
+val/image_6_left_010.png,6,left,val,10,presas en beneficio comun: y la for-,90,326,380,36,présas en beneficio comun: y la for,False,0.10147299509001637,0.021799201719373655
+val/image_6_left_011.png,6,left,val,11,"taleza Christiana, es sufrir, y hazer ",90,355,386,36,"taleza Christiana, es sufrir, y hazer",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_012.png,6,left,val,12,"mucho por Dios, y su gloria, y bien ",91,382,386,38,"mucho por Dios, y su gloria, y bien",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_013.png,6,left,val,13,"de todos, venciendose uno a si mis-",91,411,386,38,"de todos, venciendose uno a si mis-",True,0.10147299509001637,0.021799201719373655
+val/image_6_left_014.png,6,left,val,14,"mo, triunfo a que esta vinculada la ",91,440,390,38,"mo, triunfo a que esta viculada la",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_015.png,6,left,val,15,verdadera grandeza. Considerad ,91,471,390,36,verdadera grandeza. Considerad,False,0.10147299509001637,0.021799201719373655
+val/image_6_left_016.png,6,left,val,16,"pues, que la honra, y hazienda os la ",91,499,389,37,"pues, que la honra, y hazienda os la",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_017.png,6,left,val,17,"dio Dios para repartirla, y que ",89,529,390,36,"dio Dios para repartirla, y que",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_018.png,6,left,val,18,"aveys nacido tanto para los demas, ",90,556,389,38,"aveys nacido tanto para los demas,",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_019.png,6,left,val,19,como para vos mismo: assi lo dixo ,90,586,389,38,como para vos mismo: assi lo dixo,False,0.10147299509001637,0.021799201719373655
+val/image_6_left_020.png,6,left,val,20,"Ciceron del Noble, y creed, que ",90,615,388,40,"Cideron del Noble, y cred, que",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_021.png,6,left,val,21,son talentos de que les aveys de dar ,90,641,386,42,son talentos de que le aveys de dar,False,0.10147299509001637,0.021799201719373655
+val/image_6_left_022.png,6,left,val,22,"cuenta muy estrecha, y carga con ",91,671,387,41,"cuenta muy estrecha, y carga con",False,0.10147299509001637,0.021799201719373655
+val/image_6_left_023.png,6,left,val,23,que os ha obligado a ser defensor,89,702,390,40,que os ha obligado a ser defensor,True,0.10147299509001637,0.021799201719373655
+val/image_6_left_024.png,6,left,val,24,"es de su Fe y Religion, accerrimo per-",88,731,391,41,"de su Fe y Religion, accerimo per-",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_025.png,6,right,val,25,"seguidor de los vicios en vos, y en ",25,57,387,40,"seguidor de los vicios en vos, y en",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_026.png,6,right,val,26,quantos corrieren por vuestra cuen,25,88,385,38,quantos corrieren por vuestra cuen,True,0.10147299509001637,0.021799201719373655
+val/image_6_right_027.png,6,right,val,27,"ta, y exemplo de virtud a todos, ",25,116,385,39,"ta, y exemplo de virtud a todos,",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_028.png,6,right,val,28,que según el que nos dieron los Ro,24,143,386,43,que según el que nos dieron los Ro,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_029.png,6,right,val,29,"manos en aquellos dos tempos, pa-",24,174,398,40,"manos en aquellos dos templos, pa-",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_030.png,6,right,val,30,"ra entrar en el de la honra, se ha de ",24,205,398,38,"ra entrar en el de la honra, se ha de",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_031.png,6,right,val,31,"passar primero por el de la virtud, ",24,234,388,40,passar primero por el de la virtud;,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_032.png,6,right,val,32,y no os parezca que es mudaros de ,23,261,389,41,y no os parezca que es mudaros de,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_033.png,6,right,val,33,"profession obligaros a esto, y daros ",22,293,390,39,"professional obligaros a esto, y daros",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_034.png,6,right,val,34,"la de Religioso, que seria hazer ",23,324,389,37,"la de Religioso, que seria hazer",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_035.png,6,right,val,35,"agravio a la Nobleza, donde se ha ",23,348,409,42,"agravio a la Nobleza, donde se ha",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_036.png,6,right,val,36,"de hallar lo mejor de cada estado, ",23,380,394,39,de hallar lo mejor de cada estado:,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_037.png,6,right,val,37,"de los Prelados, el ser limosneros: ",23,403,409,47,"de los Prelados, el ser limosneros:",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_038.png,6,right,val,38,"de los Religiosos, el zelo y devo-",23,433,410,46,"de los Religiosos, el zelo y devo",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_039.png,6,right,val,39,"cion : de buenos Reyes, el exerci-",23,461,411,46,"cion: de buenos Reyes, el exerci-",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_040.png,6,right,val,40,"cio de la justicia : de los Soldados, el ",24,490,410,47,"cio de la justicia de los Soldados, el",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_041.png,6,right,val,41,valor y alentado corazon : de los Pa-,24,519,411,47,valor y alentado corazon: de los Pa-,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_042.png,6,right,val,42,"dres de Familias, la piedad y amor ",24,549,409,46,"dres de Familias, la piedad y amor",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_043.png,6,right,val,43,para con sus subditos : y aun de los ,24,578,412,47,para con sus subditos: y aun de los,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_044.png,6,right,val,44,"Artifices, el huyr la ociosidad, rin-",24,608,410,46,"Artifices, el huyr la ociosidad, rin-",True,0.10147299509001637,0.021799201719373655
+val/image_6_right_045.png,6,right,val,45,"diendose al incansable trabajo, que ",24,637,411,48,"diendose al incansable trabajo, que",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_046.png,6,right,val,46,es obligacion poner en el beneficio ,23,667,411,46,es obligacion poner en el beneficio,False,0.10147299509001637,0.021799201719373655
+val/image_6_right_047.png,6,right,val,47,"y buen gobierno d elos vassallos, el ",20,695,415,50,"y buen gouierno de los vassallos, el",False,0.10147299509001637,0.021799201719373655
+val/image_6_right_048.png,6,right,val,48,"qual pagan con las rentas, y sin esse",21,726,414,43,"qual pagan con las rentas, y sin esse",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_001.png,11,left,val,1,conveniente tratarlos con tanta fa-,101,81,386,38,conveniente tratarlos con tanta sa-,False,0.10147299509001637,0.021799201719373655
+val/image_11_left_002.png,11,left,val,2,"miliaridad, pero en casos forzosos ",102,111,387,37,"imiliaridad, pero en casos forçosos",False,0.10147299509001637,0.021799201719373655
+val/image_11_left_003.png,11,left,val,3,"sea con cortesia, y oyendolos alo-",102,138,385,39,"sea con cortesia, y oyendolos alo-",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_004.png,11,left,val,4,"menos en pie, y haziendolos a",103,168,386,38,"menos en pie, y haziendolos a",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_005.png,11,left,val,5,ellos cubrir; y aun con vuestros Ca-,102,195,379,40,"ellos cubrir, y aun con vuestros Ca",False,0.10147299509001637,0.021799201719373655
+val/image_11_left_006.png,11,left,val,6,"pellanes no useys del, vos ni dexeys",100,225,389,40,"pellenes no vseys del, vos, ni dexeys",False,0.10147299509001637,0.021799201719373655
+val/image_11_left_007.png,11,left,val,7,"de quitarles el sombrero, hazed que",100,256,387,39,"de quitarles el sombrero, hazed que",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_008.png,11,left,val,8,"se cubran, y para no estar en pie, en",100,285,387,38,"se cubran, y para no estar en pie, en",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_009.png,11,left,val,9,"vendiciendo la mesa, que se vayan.",102,315,377,36,"vendioiendo la mesa, que se vayan.",False,0.10147299509001637,0.021799201719373655
+val/image_11_left_010.png,11,left,val,10,Preciaos de cumplir con las obli-,131,345,356,36,preciaos de cumplir con las obli-,False,0.10147299509001637,0.021799201719373655
+val/image_11_left_011.png,11,left,val,11,gaciones devidas a vuestra Parro-,101,373,386,38,gaciones devidas a vuestra Parro-,True,0.10147299509001637,0.021799201719373655
+val/image_11_left_012.png,11,left,val,12,"chia donde quiera que esteys, no",99,404,388,36,"chia donde quiera que esteys, no",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_013.png,11,left,val,13,"pretendiendo exempciones en esto, ",100,432,387,35,"pretendiendo exempiones en esto,",False,0.10147299509001637,0.021799201719373655
+val/image_11_left_014.png,11,left,val,14,ni ceremonias nuevas para vuestra,99,460,388,37,ni ceremonias nuesas para vuestra,False,0.10147299509001637,0.021799201719373655
+val/image_11_left_015.png,11,left,val,15,"persona, sino admitiendo con hu-",99,490,386,36,"parsona, sino admitiendo con hu-",False,0.10147299509001637,0.021799201719373655
+val/image_11_left_016.png,11,left,val,16,mildad las que hallaredes introdu-,99,518,387,37,mildad las que hallaredes introdu-,True,0.10147299509001637,0.021799201719373655
+val/image_11_left_017.png,11,left,val,17,zidas en vuestro Estado con los an-,99,547,383,38,zidas en vuestro Estado con los an-,True,0.10147299509001637,0.021799201719373655
+val/image_11_left_018.png,11,left,val,18,tecessores señores del. ,99,578,253,35,teceslores señores del.,False,0.10147299509001637,0.021799201719373655
+val/image_11_left_019.png,11,left,val,19,"Respetad mucho los Templos, es-",125,606,360,36,"Respetad mucho los Templos, es-",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_020.png,11,left,val,20,tando en ellos con gran compostura,97,636,388,37,tando en ellos con gran compostura,True,0.10147299509001637,0.021799201719373655
+val/image_11_left_021.png,11,left,val,21,"descubierto, y de rodillas (no con",96,665,390,36,"descubierto, y de rodillas (no con",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_022.png,11,left,val,22,"una sola) quanto podays, meditando",98,693,390,38,"una sola) quanto podays, meditando",True,0.10147299509001637,0.021799201719373655
+val/image_11_left_023.png,11,left,val,23,con el corazon lo que pronuncian,98,722,387,39,con el corazon lo que pronuncian,True,0.10147299509001637,0.021799201719373655
+val/image_11_left_024.png,11,left,val,24,"los labios, atentos los ojos a la Ma-",97,751,384,39,"los labios, atentos los ojos a la Ma-",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_025.png,11,right,val,25,gestad que alli preside. No seays de,31,50,385,32,gestad que alli preside. No seays de,True,0.10147299509001637,0.021799201719373655
+val/image_11_right_026.png,11,right,val,26,"los inquietos, y vagueadores q vio",29,77,400,35,"los inquietos, y vagueadores q vio,",False,0.10147299509001637,0.021799201719373655
+val/image_11_right_027.png,11,right,val,27,el Propheta; ni permitireys os ha-,29,104,401,38,el Propheta; ni permitireys os ha-,True,0.10147299509001637,0.021799201719373655
+val/image_11_right_028.png,11,right,val,28,"blen en negocios, sino lo muy for-",29,134,381,37,"blen en negocios, sino lo muy for-",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_029.png,11,right,val,29,"zoso, y si para esto algun criado hin-",29,163,385,38,"coso, y si para esto algun criado hin-",False,0.10147299509001637,0.021799201719373655
+val/image_11_right_030.png,11,right,val,30,"care la rodilla, sepa ha de ser enton-",31,193,381,36,"care la rodilla, sepa ha de ser enton-",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_031.png,11,right,val,31,"ces al Altar, y no a vos.",32,221,245,38,"ces al Altar, y no a vos.",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_032.png,11,right,val,32,Assistid a los divinos Oficios siem-,53,251,363,38,A sistid a los divinos Oficios siem-,False,0.10147299509001637,0.021799201719373655
+val/image_11_right_033.png,11,right,val,33,"pre que podays, no permitiendo si-",31,280,385,39,"pre que podays, no permitiendo si-",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_034.png,11,right,val,34,tial estando patente el Santissimo,31,310,387,36,tial estando patente el Santisimo,False,0.10147299509001637,0.021799201719373655
+val/image_11_right_035.png,11,right,val,35,"Sacramento, ni en Semana Santa. ",32,339,361,37,"Sacramento, ni Semana Santa.",False,0.10147299509001637,0.021799201719373655
+val/image_11_right_036.png,11,right,val,36,"Oyd de buena gana Sermones, ",63,370,356,36,"Oyd de buena gana Sermones,",False,0.10147299509001637,0.021799201719373655
+val/image_11_right_037.png,11,right,val,37,"con desseo de aprovechar, y no di-",31,398,389,38,"con desseo de aprovechar, y no di-",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_038.png,11,right,val,38,"gays mal de ninguno, aunque no os ",33,428,388,36,"gays mal de ninguno, aunque no os",False,0.10147299509001637,0.021799201719373655
+val/image_11_right_039.png,11,right,val,39,aya parecido bien. ,31,456,204,37,aya parecido bien.,False,0.10147299509001637,0.021799201719373655
+val/image_11_right_040.png,11,right,val,40,"Acudireys a las processiones, imi-",62,485,356,35,"Acudireys a las processiones, imi-",True,0.10147299509001637,0.021799201719373655
+val/image_11_right_041.png,11,right,val,41,tando alli interiormente el espiritu,33,517,391,33,tando alli interiormente el espiritu,True,0.10147299509001637,0.021799201719373655
+val/image_11_right_042.png,11,right,val,42,del Santo Rey David.,33,549,238,30,del Santo Rey David.,True,0.10147299509001637,0.021799201719373655
+val/image_11_right_043.png,11,right,val,43,De las Iglesias de vuestro Estado,60,573,364,36,De las Iglesias de vuestro Estado,True,0.10147299509001637,0.021799201719373655
+val/image_11_right_044.png,11,right,val,44,hareys cuydar mucho (q no esta des-,33,601,392,36,hareys cuydar muchocq no esta des-,False,0.10147299509001637,0.021799201719373655
+val/image_11_right_045.png,11,right,val,45,obligados desto los Señores tempora-,34,633,388,33,obligados desto los SeñOres tepora-,False,0.10147299509001637,0.021799201719373655
+val/image_11_right_046.png,11,right,val,46,"les, por tocar principalmete a los O-",35,664,391,32,"les, por tocar principal mete a los O-",False,0.10147299509001637,0.021799201719373655
+val/image_11_right_047.png,11,right,val,47,bispos) procurad las tega co todas de-,36,695,386,30,bispos) procurd las tega co toda de-,False,0.10147299509001637,0.021799201719373655
+val/image_11_right_048.png,11,right,val,48,"cencia, y proveydas de lo necessario;",37,719,390,36,"concia, y proveydas de lo necessario,",False,0.10147299509001637,0.021799201719373655
