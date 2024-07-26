@@ -14,7 +14,7 @@ if __name__ == "__main__":
         "--dictionary_paths",
         type=Path,
         nargs="+",
-        required=True,
+        required=False,
         default=[
             Path("data/0_input/sbwce-corpus/dictionary.json"),
             Path("data/0_input/dataset_words/dictionary.json"),
