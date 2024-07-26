@@ -19,35 +19,25 @@ from transformers import (
 )
 
 mlflow.set_tracking_uri("http://localhost:5400")
-mlflow.set_experiment("TrOCR large-spanish CRAFT v2")
+mlflow.set_experiment("TrOCR large-english Doc-UFCN")
 
 train_set = datasets.load_dataset(
     "imagefolder",
-    data_dir="data/0_input/handout-huggingface-our_splits",
+    data_dir="/hdd/home/mariero/deeplearn24/data/2_bounding_box/Doc-UFCN_processed",
     split="train",
 )
 
 validation_set = datasets.load_dataset(
     "imagefolder",
-    data_dir="data/0_input/handout-huggingface-our_splits",
+    data_dir="/hdd/home/mariero/deeplearn24/data/2_bounding_box/Doc-UFCN_processed",
     split="validation",
 )
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-processor = TrOCRProcessor.from_pretrained("qantev/trocr-large-spanish")
-model = VisionEncoderDecoderModel.from_pretrained("qantev/trocr-large-spanish").to(device)
+processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-printed")
+model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-large-printed").to(device)
 
-# Remove samples with missing transcriptions
-train_indices = [i for i, t in enumerate(train_set["transcription"]) if t]
-train_set = train_set.select(train_indices)
-validation_indices = [i for i, t in enumerate(validation_set["transcription"]) if t]
-validation_set = validation_set.select(validation_indices)
-
-tokens = processor.tokenizer(
-    train_set["transcription"],
-    padding="do_not_pad",
-    max_length=128,
-)
+tokens = processor.tokenizer(train_set["transcription"], padding="do_not_pad", max_length=128)
 max_tokens = max(len(token) for token in tokens["input_ids"])
 max_target_length = int(1.5 * max_tokens)
 transform_data_partial = partial(
@@ -82,7 +72,7 @@ with mlflow.start_run() as run:
     checkpoint_dir.mkdir(parents=True, exist_ok=True)
 
     # Setup trainer args
-    eval_frequency = 100
+    eval_frequency = 50
     training_args = Seq2SeqTrainingArguments(
         predict_with_generate=True,
         eval_strategy="steps",

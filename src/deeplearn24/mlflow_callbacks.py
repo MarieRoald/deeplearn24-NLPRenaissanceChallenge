@@ -32,13 +32,16 @@ class EvaluatedExample:
     image: PIL.Image.Image
     transcription: str
     estimated_transcription: str
+    postprocessed_estimated_transcription: str
 
     def visualise(self, ax: plt.Axes) -> None:
         ax.imshow(self.image)
         ax.set_title(
             f"Transcription: {self.transcription}\n"
-            f"Estimated: {self.estimated_transcription}\n"
-            f"CER: {self.cer}"
+            f"    Estimated: {self.estimated_transcription} ({self.postprocessed_estimated_transcription})\n"
+            f"          CER: {self.cer}",
+            loc="left",
+            fontname="monospace",
         )
         ax.axis("off")
 
@@ -102,12 +105,14 @@ class ImageSaverCallback(TrainerCallback):
         validation_data: datasets.arrow_dataset.Dataset,
         processed_validation_data: datasets.arrow_dataset.Dataset,
         device: torch.device,
+        postprocess: Callable[[str], str],
         save_frequency: int = 10,
     ):
         self.processor = processor
         self.validation_data = validation_data
         self.processed_validation_data = processed_validation_data
         self.device = device
+        self.postprocess = postprocess
         self.save_frequency = save_frequency
 
         rng = np.random.default_rng(42)
@@ -135,14 +140,7 @@ class ImageSaverCallback(TrainerCallback):
         self, model: transformers.modeling_utils.PreTrainedModel
     ) -> list[str]:
         all_estimated_ids = model.generate(self.val_pixel_values)
-        return [
-            self.processor.batch_decode(generated_id, skip_special_tokens=True)[0]
-            for generated_id in tqdm(
-                all_estimated_ids,
-                desc="Decoding on all validation examples",
-                total=len(self.val_images),
-            )
-        ]
+        return self.processor.batch_decode(all_estimated_ids, skip_special_tokens=True)
 
     def get_evaluated_examples(
         self, model: transformers.modeling_utils.PreTrainedModel
@@ -154,7 +152,9 @@ class ImageSaverCallback(TrainerCallback):
             transcription = self.validation_data[i]["transcription"]
 
             cer = cer_metric.compute(predictions=[estimated_text], references=[transcription])
-            yield EvaluatedExample(cer, image, transcription, estimated_text)
+            yield EvaluatedExample(
+                cer, image, transcription, estimated_text, self.postprocess(estimated_text)
+            )
 
     def on_step_end(
         self,

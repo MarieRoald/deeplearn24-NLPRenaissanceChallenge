@@ -161,7 +161,9 @@ def process_word(word):
     return "".join(new_word)
 
 
-def post_process_text(text: str, unique_words: frozenset[str]) -> str:
+def post_process_text(
+    text: str, unique_words: frozenset[str], include_rule_based_processing: bool = True
+) -> str:
     processed_words = []
     for word in text.split():
         word_without_punctuation = remove_punctuation(word)
@@ -174,8 +176,10 @@ def post_process_text(text: str, unique_words: frozenset[str]) -> str:
             new_word = replace_word_with_punctuation(
                 word, word_without_punctuation, dictionary_match
             )
-        else:
+        elif include_rule_based_processing:
             new_word = process_word(word)
+        else:
+            new_word = word
         processed_words.append(new_word)
 
     return " ".join(processed_words)

@@ -4,7 +4,11 @@ from pathlib import Path
 import datasets
 import mlflow
 import torch
-from deeplearn24.mlflow_callbacks import ImageSaverCallback
+from deeplearn24.mlflow_callbacks import ImageSaverCallback, TrainEvalCallback
+from deeplearn24.postprocessing import (
+    load_dictionaries,
+    post_process_text,
+)
 from deeplearn24.tr_ocr import compute_metrics, transform_data
 from transformers import (
     Seq2SeqTrainer,
@@ -14,26 +18,36 @@ from transformers import (
     default_data_collator,
 )
 
-mlflow.set_tracking_uri("http://cicero.nb.no:5400")
-mlflow.set_experiment("TrOCR large-spanish doc-ufcn")
+mlflow.set_tracking_uri("http://localhost:5400")
+mlflow.set_experiment("TrOCR large-english CRAFT")
 
 train_set = datasets.load_dataset(
     "imagefolder",
-    data_dir="/hdd/home/mariero/deeplearn24/data/2_bounding_box/Doc-UFCN_processed",
+    data_dir="data/0_input/handout-huggingface-our_splits",
     split="train",
 )
 
 validation_set = datasets.load_dataset(
     "imagefolder",
-    data_dir="/hdd/home/mariero/deeplearn24/data/2_bounding_box/Doc-UFCN_processed",
+    data_dir="data/0_input/handout-huggingface-our_splits",
     split="validation",
 )
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-processor = TrOCRProcessor.from_pretrained("qantev/trocr-large-spanish")
-model = VisionEncoderDecoderModel.from_pretrained("qantev/trocr-large-spanish").to(device)
+processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-printed")
+model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-large-printed").to(device)
 
-tokens = processor.tokenizer(train_set["transcription"], padding="do_not_pad", max_length=128)
+# Remove samples with missing transcriptions
+train_indices = [i for i, t in enumerate(train_set["transcription"]) if t]
+train_set = train_set.select(train_indices)
+validation_indices = [i for i, t in enumerate(validation_set["transcription"]) if t]
+validation_set = validation_set.select(validation_indices)
+
+tokens = processor.tokenizer(
+    train_set["transcription"],
+    padding="do_not_pad",
+    max_length=128,
+)
 max_tokens = max(len(token) for token in tokens["input_ids"])
 max_target_length = int(1.5 * max_tokens)
 transform_data_partial = partial(
@@ -56,10 +70,19 @@ model.generation_config.no_repeat_ngram_size = 3
 model.generation_config.length_penalty = 2.0
 model.generation_config.num_beams = 4
 
+unique_words = load_dictionaries(
+    Path("data/0_input/sbwce-corpus/dictionary.json"),
+    Path("data/0_input/dataset_words/dictionary.json"),
+)
+
 with mlflow.start_run() as run:
-    # Setup trainer
-    checkpoint_dir = Path(f"./checkpoints/{run.info.run_name}/")
+    # Setup checkpoint dir
+    experiment_name = Path(__file__).stem
+    checkpoint_dir = Path(f"data/3_ocr/{experiment_name}/{run.info.run_name}/")
     checkpoint_dir.mkdir(parents=True, exist_ok=True)
+
+    # Setup trainer args
+    eval_frequency = 100
     training_args = Seq2SeqTrainingArguments(
         predict_with_generate=True,
         eval_strategy="steps",
@@ -69,23 +92,41 @@ with mlflow.start_run() as run:
         output_dir=checkpoint_dir,
         logging_steps=2,
         save_steps=100,
-        eval_steps=5,
+        eval_steps=eval_frequency,
         remove_unused_columns=False,
         max_steps=1000,
         learning_rate=1e-5,
+        metric_for_best_model="eval_cer",
+        load_best_model_at_end=True,
+        greater_is_better=False,
     )
 
+    # Setup trainer
+    postprocess = partial(post_process_text, unique_words=unique_words)
+    eval_func = partial(compute_metrics, processor=processor, postprocess=postprocess)
     trainer = Seq2SeqTrainer(
         model=model,
         tokenizer=processor.feature_extractor,
         args=training_args,
-        compute_metrics=partial(compute_metrics, processor=processor),
+        compute_metrics=eval_func,
         train_dataset=processed_train_set,
         eval_dataset=processed_validation_set,
         data_collator=default_data_collator,
-        callbacks=[ImageSaverCallback(processor, validation_set, processed_validation_set, device)],
+        callbacks=[
+            ImageSaverCallback(
+                processor,
+                validation_set,
+                processed_validation_set,
+                device,
+                postprocess=postprocess,
+                save_frequency=eval_frequency,
+            ),
+            TrainEvalCallback(eval_func, batch_size=50),
+        ],
     )
     trainer.train()
+    trainer.save_model(checkpoint_dir / "final_model")
+    processor.save_pretrained(checkpoint_dir / "processor")
 
 
 image = train_set[0]["image"]
