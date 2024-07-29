@@ -19,6 +19,10 @@ logger = logging.getLogger(__name__)
 
 DEBUG = True
 
+# avoid debug logs from pillow
+pil_logger = logging.getLogger("PIL")
+pil_logger.setLevel(logging.INFO)
+
 
 def preprocess_image_and_run_doc_ufcn(image: ImageArray) -> ImageArray:
     image_copy = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -186,7 +190,7 @@ def save_bounding_boxes_with_transcription(
 ) -> tuple[pd.DataFrame, int]:
     rows = []
 
-    for _marker, (x, y, w, h) in bounding_boxes.items():
+    for marker, (x, y, w, h) in bounding_boxes.items():
         if transcription_lines is None:
             transcription = None
         else:
@@ -200,8 +204,8 @@ def save_bounding_boxes_with_transcription(
         if w * h < 1000 and x > 100:
             continue
 
-        # If the box is to high up and likely to be a header, ignore it
-        if y < 50:
+        # If the box is too high up and the first box on the page it is likely to be a header, ignore it
+        if y < 50 and marker == 1:
             continue
 
         # If the box is to far down to and likely to be a footer, ignore it
